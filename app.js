@@ -33,3 +33,25 @@ if (uploadedGallery) {
     })
     .catch(() => { uploadedGallery.innerHTML = '<p class="gallery-empty">Gallery is temporarily unavailable.</p>'; });
 }
+
+
+// Render previews for URLs listed in public/links/links.json.
+const linkGallery = document.getElementById('linkGallery');
+if (linkGallery) {
+  fetch('/api/link-previews')
+    .then(response => { if (!response.ok) throw new Error('Link previews unavailable'); return response.json(); })
+    .then(items => {
+      if (!items.length) return;
+      linkGallery.innerHTML = '';
+      items.forEach(item => {
+        const card = document.createElement('a');
+        card.className = 'link-preview-card'; card.href = item.url;
+        card.target = '_blank'; card.rel = 'noopener noreferrer';
+        if (item.image) { const img = document.createElement('img'); img.src = item.image; img.alt = item.title || 'Link preview'; img.loading = 'lazy'; card.appendChild(img); }
+        const title = document.createElement('strong'); title.textContent = item.title || item.url;
+        const url = document.createElement('span'); url.textContent = item.url;
+        card.append(title, url); linkGallery.appendChild(card);
+      });
+    })
+    .catch(() => { linkGallery.innerHTML = '<p class="gallery-empty">Link previews are temporarily unavailable.</p>'; });
+}
