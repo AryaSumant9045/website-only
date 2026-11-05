@@ -47,7 +47,10 @@ if (linkGallery) {
         const card = document.createElement('a');
         card.className = 'link-preview-card'; card.href = item.url;
         card.target = '_blank'; card.rel = 'noopener noreferrer';
-        if (item.image) { const img = document.createElement('img'); img.src = item.image; img.alt = item.title || 'Link preview'; img.loading = 'lazy'; card.appendChild(img); }
+        const preview = document.createElement('div'); preview.className = 'link-preview-media';
+        if (item.image) { const img = document.createElement('img'); img.src = item.image; img.alt = item.title || 'Link preview'; img.loading = 'lazy'; img.onerror = () => { preview.innerHTML = '<span>Preview image unavailable</span>'; }; preview.appendChild(img); }
+        else { preview.innerHTML = '<span>Preview image unavailable</span>'; }
+        card.appendChild(preview);
         const title = document.createElement('strong'); title.textContent = item.title || item.url;
         const url = document.createElement('span'); url.textContent = item.url;
         card.append(title, url); linkGallery.appendChild(card);
