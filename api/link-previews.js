@@ -11,10 +11,10 @@ function decode(value) {
 }
 
 function metaContent(html, key) {
-  const tags = html.match(/<meta\\b[^>]*>/gi) || [];
+  const tags = html.match(/<meta\b[^>]*>/gi) || [];
   for (const tag of tags) {
-    const name = (tag.match(/\\b(?:property|name)\\s*=\\s*["']([^"']+)["']/i) || [])[1];
-    const content = (tag.match(/\\bcontent\\s*=\\s*["']([^"']*)["']/i) || [])[1];
+    const name = (tag.match(/\b(?:property|name)\s*=\s*["']([^"']+)["']/i) || [])[1];
+    const content = (tag.match(/\bcontent\s*=\s*["']([^"']*)["']/i) || [])[1];
     if (name && content && name.toLowerCase() === key.toLowerCase()) return decode(content);
   }
   return null;
@@ -46,7 +46,7 @@ module.exports = async (req, res) => {
 
       const html = (await response.text()).slice(0, 500000);
       const pageUrl = new URL(url);
-      const titleTag = (html.match(/<title\\b[^>]*>([\\s\\S]*?)<\\/title>/i) || [])[1] || '';
+      const titleTag = (html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '';
       const title = metaContent(html, 'og:title') ||
         metaContent(html, 'twitter:title') ||
         decode(titleTag.replace(/<[^>]+>/g, '').trim()) || url;
