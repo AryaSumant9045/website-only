@@ -44,7 +44,18 @@ module.exports = async (req, res) => {
         signal: AbortSignal.timeout(7000)
       });
       const type = response.headers.get('content-type') || '';
-      if (!response.ok || !type.includes('text/html')) return { url, title: url, image: siteIcon };
+      const pathname = decodeURIComponent(pageUrl.pathname);
+      const directImage = type.toLowerCase().startsWith('image/') ||
+        /\\.(?:jpe?g|png|webp|gif|avif|bmp)$/i.test(pathname);
+
+      // A URL may point directly to an image file rather than an HTML page.
+      if (response.ok && directImage) {
+        const filename = pathname.split('/').filter(Boolean).pop() || pageUrl.hostname;
+        return { url, title: filename, image: url };
+      }
+      if (!response.ok || !type.toLowerCase().includes('text/html')) {
+        return { url, title: pageUrl.hostname, image: siteIcon };
+      }
 
       const html = (await response.text()).slice(0, 500000);
       const titleTag = (html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '';
@@ -65,7 +76,7 @@ module.exports = async (req, res) => {
       }
       return { url, title, image: image || siteIcon };
     } catch (_) {
-      return { url, title: url, image: siteIcon };
+      return { url, title: pageUrl.hostname, image: siteIcon };
     }
   }));
 
