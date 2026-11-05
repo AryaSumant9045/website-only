@@ -63,18 +63,11 @@ module.exports = async (req, res) => {
         metaContent(html, 'twitter:title') ||
         decode(titleTag.replace(/<[^>]+>/g, '').trim()) || url;
 
-      // Do not pull explicit-media thumbnails from the currently configured adult-content host.
+      // Use a rendered webpage screenshot as the card image, not the site's favicon or logo.
+      // This host is excluded from screenshot capture; use its neutral site icon instead.
       const restrictedPreviewHost = pageUrl.hostname === 'elitebabes.com' || pageUrl.hostname.endsWith('.elitebabes.com');
-      const rawImage = restrictedPreviewHost ? null :
-        (metaContent(html, 'og:image') || metaContent(html, 'twitter:image'));
-      let image = null;
-      if (rawImage) {
-        try {
-          const candidate = new URL(rawImage, url);
-          if (candidate.protocol === 'http:' || candidate.protocol === 'https:') image = candidate.href;
-        } catch (_) {}
-      }
-      return { url, title, image: image || siteIcon };
+      const screenshot = `https://image.thum.io/get/width/600/crop/900/${url}`;
+      return { url, title, image: restrictedPreviewHost ? siteIcon : screenshot };
     } catch (_) {
       return { url, title: pageUrl.hostname, image: siteIcon };
     }
