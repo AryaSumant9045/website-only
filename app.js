@@ -47,7 +47,13 @@ if (linkGallery) {
         const card = document.createElement('a');
         card.className = 'link-preview-card'; card.href = item.url;
         card.target = '_blank'; card.rel = 'noopener noreferrer';
-        if (item.image) { const img = document.createElement('img'); img.src = item.image; img.alt = item.title || 'Link preview'; img.loading = 'lazy'; card.appendChild(img); }
+        if (item.image) {
+          const img = document.createElement('img'); img.src = item.image; img.alt = item.title || 'Link preview'; img.loading = 'lazy';
+          img.onerror = () => { img.remove(); const fallback = document.createElement('div'); fallback.className = 'link-preview-placeholder'; fallback.textContent = 'Preview image unavailable'; card.insertBefore(fallback, card.firstChild); };
+          card.appendChild(img);
+        } else {
+          const fallback = document.createElement('div'); fallback.className = 'link-preview-placeholder'; fallback.textContent = 'Preview image unavailable'; card.appendChild(fallback);
+        }
         const title = document.createElement('strong'); title.textContent = item.title || item.url;
         const url = document.createElement('span'); url.textContent = item.url;
         card.append(title, url); linkGallery.appendChild(card);
