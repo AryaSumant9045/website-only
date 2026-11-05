@@ -36,16 +36,17 @@ module.exports = async (req, res) => {
     .slice(0, 30);
 
   const previews = await Promise.all(clean.map(async url => {
+    const pageUrl = new URL(url);
+    const siteIcon = `https://www.google.com/s2/favicons?domain_url=${encodeURIComponent(pageUrl.origin)}&sz=256`;
     try {
       const response = await fetch(url, {
         headers: { 'user-agent': 'Mozilla/5.0 (compatible; VelvetPreview/1.0)' },
         signal: AbortSignal.timeout(7000)
       });
       const type = response.headers.get('content-type') || '';
-      if (!response.ok || !type.includes('text/html')) return { url, title: url, image: null };
+      if (!response.ok || !type.includes('text/html')) return { url, title: url, image: siteIcon };
 
       const html = (await response.text()).slice(0, 500000);
-      const pageUrl = new URL(url);
       const titleTag = (html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '';
       const title = metaContent(html, 'og:title') ||
         metaContent(html, 'twitter:title') ||
@@ -62,9 +63,9 @@ module.exports = async (req, res) => {
           if (candidate.protocol === 'http:' || candidate.protocol === 'https:') image = candidate.href;
         } catch (_) {}
       }
-      return { url, title, image };
+      return { url, title, image: image || siteIcon };
     } catch (_) {
-      return { url, title: url, image: null };
+      return { url, title: url, image: siteIcon };
     }
   }));
 
