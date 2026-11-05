@@ -5,3 +5,5 @@
 
 
 .link-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.link-preview-card{display:flex;flex-direction:column;gap:10px;min-width:0;padding-bottom:16px;border-bottom:1px solid var(--line)}.link-preview-card img{width:100%;aspect-ratio:16/10;object-fit:cover;background:var(--panel)}.link-preview-card strong{font:500 18px var(--serif);overflow-wrap:anywhere}.link-preview-card span{font-size:10px;color:var(--muted);overflow-wrap:anywhere}.links-section{padding-top:20px;padding-bottom:100px}@media(max-width:760px){.link-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+
+.link-preview-media{width:100%;aspect-ratio:16/10;overflow:hidden;background:linear-gradient(135deg,#24121d,#5c2038);display:grid;place-items:center}.link-preview-media img{width:100%;height:100%;object-fit:cover;display:block}.link-preview-media span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#d8a2ae}
