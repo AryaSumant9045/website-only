@@ -1,0 +1,22 @@
+# Render Blueprint — one click deploys the whole app (UI + /api), not just static files.
+# Dashboard → New → Blueprint → pick this repo.
+services:
+  - type: web
+    name: leadscout
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: APP_USER
+        value: leadscout
+      # Render generates a password; copy it from the dashboard after deploy.
+      - key: APP_PASSWORD
+        generateValue: true
+      # Add the key in the dashboard (never commit it).
+      - key: GOOGLE_PLACES_KEY
+        sync: false
+      - key: CACHE_TTL_MS
+        value: "21600000"

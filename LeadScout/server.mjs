@@ -34,6 +34,19 @@ const DATA = path.join(__dirname, "data");
 const PORT = Number(process.env.PORT) || 8787;
 const VERSION = "2.0.0";
 
+/* Optional HTTP Basic auth. Set APP_PASSWORD before putting this on a public
+   URL — otherwise anyone can spend your Google Places credit. */
+const APP_USER = process.env.APP_USER || "leadscout";
+const APP_PASSWORD = process.env.APP_PASSWORD || "";
+
+function authorised(req) {
+  if (!APP_PASSWORD) return true;
+  const header = req.headers.authorization || "";
+  if (!header.startsWith("Basic ")) return false;
+  const [user, pass] = Buffer.from(header.slice(6), "base64").toString("utf8").split(":");
+  return user === APP_USER && pass === APP_PASSWORD;
+}
+
 /* ------------------------------------------------------------------ */
 /* tiny .env loader — looks in the project and one level above it      */
 /* ------------------------------------------------------------------ */
@@ -154,6 +167,11 @@ const server = http.createServer(async (req, res) => {
   }
 
   try {
+    if (route !== "/api/health" && !authorised(req)) {
+      res.writeHead(401, { "WWW-Authenticate": 'Basic realm="LeadScout", charset="UTF-8"' });
+      return res.end("Authentication required");
+    }
+
     if (route === "/api/health") {
       return json(res, 200, {
         version: VERSION,
@@ -402,8 +420,8 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, "127.0.0.1", () => {
-  console.log(`\n  LeadScout ${VERSION}\n  → http://127.0.0.1:${PORT}\n`);
+server.listen(PORT, process.env.HOST || "127.0.0.1", () => {
+  console.log(`\n  LeadScout ${VERSION}\n  → http://${process.env.HOST || "127.0.0.1"}:${PORT}\n`);
   console.log(`  Sources: Google Places (key), Reddit, Hacker News, RemoteOK, WWR, Serper/Tavily (key)`);
   console.log(`  Keys: add in Settings (browser only) or export GOOGLE_PLACES_KEY / SERPER_KEY / LLM_API_KEY\n`);
 });

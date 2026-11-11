@@ -36,10 +36,35 @@ const load = (k, d) => {
     return d;
   }
 };
+/** Drop the oldest leads so localStorage never overflows. */
+function pruneSaved(max = 1500) {
+  const ids = Object.keys(S.saved || {});
+  if (ids.length <= max) return 0;
+  const ordered = ids
+    .map((id) => S.saved[id])
+    .sort((a, b) => (Date.parse(a.fetchedAt || 0) || 0) - (Date.parse(b.fetchedAt || 0) || 0));
+  const drop = ordered.slice(0, ids.length - max);
+  for (const l of drop) delete S.saved[l.id];
+  return drop.length;
+}
+
 const save = (k, v) => {
   try {
     localStorage.setItem(k, JSON.stringify(v));
-  } catch {}
+    return true;
+  } catch (e) {
+    // Quota exceeded: shed the oldest third and retry once.
+    if (k === LS.saved && S.saved) {
+      const dropped = pruneSaved(Math.floor(Object.keys(S.saved).length * 0.6));
+      try {
+        localStorage.setItem(k, JSON.stringify(S.saved));
+        if (dropped) toast(`Storage bhar gaya tha — ${dropped} purane leads nikal diye`);
+        return true;
+      } catch {}
+    }
+    toast("Browser storage full — Settings se purane leads clear karo");
+    return false;
+  }
 };
 
 const S = {
@@ -368,9 +393,14 @@ function bindFilters() {
     el.addEventListener("change", onFilterChange);
   });
   $("#clearFilters").onclick = resetFilters;
+  $("#loadMore").onclick = () => {
+    S.shown = (S.shown || PAGE_SIZE) + PAGE_SIZE;
+    renderGrid();
+  };
 }
 
 function onFilterChange() {
+  resetPage();
   save(LS.filters, readFilters());
   renderGrid();
 }
@@ -529,7 +559,13 @@ function handleEvent(ev) {
 /* results                                                            */
 /* ------------------------------------------------------------------ */
 
+const PAGE_SIZE = 60;
 let renderTimer = null;
+
+/** How many cards are currently painted. Long boards load in pages. */
+function resetPage() {
+  S.shown = PAGE_SIZE;
+}
 
 /** Coalesce the stream: many leads can land within a second. */
 function scheduleRender() {
@@ -561,6 +597,7 @@ function upsertLead(lead) {
     S.leads.unshift(lead);
   }
   S.saved[lead.id] = lead;
+  if (Object.keys(S.saved).length > 2000) pruneSaved(1500);
   save(LS.saved, S.saved);
   scheduleRender();
 }
@@ -710,9 +747,13 @@ function flag(c) {
 function renderGrid() {
   const list = visibleLeads();
   const grid = $("#leadGrid");
+  if (!S.shown) S.shown = PAGE_SIZE;
   $("#countLabel").textContent = `${list.length}/${baseLeads().length} shown`;
   $("#emptyState").hidden = list.length > 0;
-  grid.innerHTML = list
+  const wrap = $("#loadMoreWrap");
+  wrap.hidden = list.length <= S.shown;
+  if (!wrap.hidden) $("#loadMore").textContent = `Load more · ${list.length - S.shown} left`;
+  grid.innerHTML = list.slice(0, S.shown)
     .map((l) => {
       const band = l.score?.band || "C";
       const price = l.proposal?.price || [0, 0];
@@ -950,6 +991,11 @@ function renderSavedCount() {
   const badge = $("#navPipeCount");
   badge.hidden = active === 0;
   badge.textContent = active;
+  const info = $("#storageInfo");
+  if (info) {
+    const kb = Math.round(new Blob([JSON.stringify(S.saved)]).size / 1024);
+    info.textContent = `Local storage: ${kb} KB · ${n} leads saved (browser limit ~5 MB, isliye 2000 par purane apne aap hatte hain).`;
+  }
 }
 
 function renderKanban() {

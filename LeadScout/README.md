@@ -1,6 +1,6 @@
 # LeadScout 2.0 — multi-agent client finder
 
-Client dhoondhne ka tool, tumhare liye banaya: **7 agents** chalte hain, result mein tumhe
+Client dhoondhne ka tool, tumhare liye banaya: **8 agents** chalte hain, result mein tumhe
 lead + "kya banana hai" + USD price + pehla message milta hai. Zero dependencies — sirf
 Node chahiye.
 
@@ -236,6 +236,39 @@ server se **403 `API_KEY_HTTP_REFERRER_BLOCKED`** aayega. Fix: Google Cloud → 
 Places API (New)** aur daily quota 200 rakho.
 
 ---
+
+## Deploy (hosting)
+
+**Vercel par ye app nahi chalegi** — aur wajah 404 nahi hai:
+1. Runs **60–180 second** lete hain (scan + audit + Google lookups) aur result **NDJSON stream** hota hai.
+   Vercel Hobby functions 10s (max 60s) par timeout karte hain — run beech mein mar jayega.
+2. `/api/*` endpoints ek **persistent Node process** chahte hain; serverless par in-memory cache
+   aur streaming dono kaam nahi karte.
+3. Sirf `public/` static deploy karne se UI khulega par har button fail hoga ("Server not reachable"),
+   kyunki saara kaam backend karta hai.
+
+**Sahi host:** koi bhi Node/Docker host — Render, Railway, Fly.io, ya apna VPS.
+
+### Render (free, 3 clicks)
+
+1. Render → **New → Blueprint** → repo `website-only` chuno (root mein `render.yaml` hai).
+2. Dashboard mein `GOOGLE_PLACES_KEY` daalo (secret, repo mein nahi).
+3. Deploy hone par `APP_PASSWORD` generate hota hai — usse copy karo.
+4. URL kholo → browser username `leadscout`, password wahi generated.
+
+### Docker (kahin bhi)
+
+```bash
+docker build -t leadscout .
+docker run -p 8787:8787 \
+  -e APP_PASSWORD=choose-a-password \
+  -e GOOGLE_PLACES_KEY=AIza... \
+  leadscout
+```
+
+⚠️ **Public URL par bina `APP_PASSWORD` mat chhodo** — warna koi bhi tumhari Google key se
+API calls kar sakta hai. Auth on hone par `/api/health` public rehta hai (uptime checks ke liye),
+baaki sab 401.
 
 ## Troubleshooting
 

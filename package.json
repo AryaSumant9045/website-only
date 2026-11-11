@@ -1,0 +1,14 @@
+{
+  "name": "leadscout",
+  "version": "2.0.0",
+  "private": true,
+  "description": "LeadScout — multi-agent client finder: local businesses with no site, public briefs, scored and pitched.",
+  "scripts": {
+    "start": "node LeadScout/server.mjs",
+    "brief": "node LeadScout/scripts/brief.mjs",
+    "refresh-seeds": "node LeadScout/scripts/refresh-seeds.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -272,6 +272,8 @@ h1 em { font-style: normal; color: var(--acid); }
 .mini.acid:hover { background: rgba(184,243,74,.1); }
 
 .empty { text-align: center; color: var(--dim); padding: 40px; grid-column: 1/-1; }
+.load-more { display: flex; justify-content: center; margin-top: 14px; }
+.load-more .btn { min-width: 220px; justify-content: center; }
 
 .empty-hero { text-align: center; padding: 60px 20px 30px; color: var(--dim); }
 .empty-hero h3 { font-size: 15px; color: var(--muted); margin-bottom: 6px; }

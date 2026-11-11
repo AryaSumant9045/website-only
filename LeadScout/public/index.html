@@ -167,6 +167,9 @@
         </div>
 
         <div class="lead-grid" id="leadGrid"></div>
+        <div class="load-more" id="loadMoreWrap" hidden>
+          <button class="btn subtle" id="loadMore">Load more</button>
+        </div>
         <div class="empty" id="emptyState" hidden>
           <p>No leads match those filters.</p>
         </div>
@@ -228,6 +231,7 @@
           <h3>Where your keys live <span class="tag">privacy</span></h3>
           <p class="hint">Keys are stored in this browser's localStorage and sent with each run to your own local server, which holds them in memory for that request only. Nothing is written to disk, nothing goes to a third party except the provider you chose.</p>
           <p class="hint">Sharing this Mac? Hit <b>Clear keys</b> below. Restrict the Google key to Places API (New) and set a daily quota so a lost key cannot run up a bill.</p>
+          <p class="hint" id="storageInfo"></p>
         </div>
 
         <div class="panel wide">
