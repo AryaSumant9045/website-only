@@ -1,5 +1,16 @@
+# secrets
 .env.local
 .env
+
+# artefacts
 *.log
+*.zip
 .DS_Store
 .shots/
+.shots*
+.tmp-remote/
+node_modules/
+
+# generated research data
+data/leads_raw.json
+LeadScout/data/leads_raw.json
