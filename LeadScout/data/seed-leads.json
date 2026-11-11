@@ -1,0 +1,4429 @@
+[
+  {
+    "id": "rs_-one-bottle-street-whisky-rum-price-comp_nce-jo",
+    "name": "'One, Bottle Street' - whisky/rum price comparison startup, UK",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/developer-to-finish-and-launch-a-uk-price-comparison-website-4530400",
+    "postedAt": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.731Z",
+    "budgetHints": [
+      2540
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Turn an AI-built prototype into a production price-comparison site for whisky and rum: retailer feed importer, search, bottle pages, hosting handover.",
+      "evidence": "Turn an AI-built prototype into a production price-comparison site for whisky and rum: retailer feed importer, search, bottle pages, hosting handover.\nBudget: £2,000 fixed (negotiable), milestone payments",
+      "signals": [
+        "Budget: £2,000 fixed (negotiable), milestone pay",
+        "2d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/developer-to-finish-and-launch-a-uk-price-comparison-website-4530400",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Deadline-driven: live by 1 Feb 2027 with milestones 15 Dec / 15 Jan. 72 proposals but the brief is unusually specific - a strong, well-scoped UK lead.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-09"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 87,
+      "band": "A",
+      "breakdown": {
+        "intent": 23,
+        "budget": 20,
+        "recency": 20,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $2,540+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Turn an AI-built prototype into a production price-comparison site for whisky and rum: retailer feed importer,\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        1905,
+        2286
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($2,540–$2,540)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Turn an AI-built prototype into a production price-comparison…",
+      "emailBody": "Hi One,\n\nSaw your brief: Turn an AI-built prototype into a production price-comparison site for whisky and rum…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $1,905–$2,286 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Turn an AI-built prototype into a production price-comparison site…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $1,905–$2,286 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this 'One, Bottle Street' - whisky/rum price comparison startup, UK? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_exosuited-com-canada_ui-des",
+    "name": "Exosuited.com, Canada",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/ui-design/revamp-coding-interface-usability",
+    "postedAt": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      3000,
+      5000
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Rework the front-end of a downloadable AI coding-enhancement app - code editor and overall coding UX - improving usability without a rebuild.",
+      "evidence": "Rework the front-end of a downloadable AI coding-enhancement app - code editor and overall coding UX - improving usability without a rebuild.\nBudget: $3,000-5,000",
+      "signals": [
+        "Budget: $3,000-5,000",
+        "2d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/ui-design/revamp-coding-interface-usability",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment verified. Client names the product and asks applicants to try it first.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-09"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 83,
+      "band": "A",
+      "breakdown": {
+        "intent": 23,
+        "budget": 20,
+        "recency": 20,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $5,000+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Rework the front-end of a downloadable AI coding-enhancement app - code editor and overall coding UX - improvi\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        2250,
+        4500
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($3,000–$5,000)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Rework the front-end of a downloadable AI coding-enhancement…",
+      "emailBody": "Hi Exosuited.com,\n\nSaw your brief: Rework the front-end of a downloadable AI coding-enhancement app - code editor and…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $2,250–$4,500 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Rework the front-end of a downloadable AI coding-enhancement app …. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $2,250–$4,500 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Exosuited.com, Canada? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_licensed-uk-gambling-operator_kotlin",
+    "name": "Licensed UK gambling operator",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/kotlin/need-expert-who-can-build",
+    "postedAt": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.731Z",
+    "budgetHints": [
+      3000,
+      5000
+    ],
+    "bids": 0,
+    "service": "mobile",
+    "need": {
+      "summary": "End-to-end Android real-money casino app: architecture, build, compliance prep, Google Play submission and regional rollout wherever they hold licences.",
+      "evidence": "End-to-end Android real-money casino app: architecture, build, compliance prep, Google Play submission and regional rollout wherever they hold licences.\nBudget: $3,000-5,000",
+      "signals": [
+        "Budget: $3,000-5,000",
+        "2d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/kotlin/need-expert-who-can-build",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Payment NOT verified and 20 proposals. Gambling/Play-policy compliance is the hard part; high risk, high budget.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-09"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 82,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 20,
+        "recency": 20,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $5,000+"
+      ]
+    },
+    "proposal": {
+      "build": "Cross-platform MVP (React Native/Expo): auth, 3 core screens, push notifications, store submission",
+      "why": "They asked for this in public: \"End-to-end Android real-money casino app: architecture, build, compliance prep, Google Play submission and reg\". Cross-platform MVP (React Native/Expo): auth answers exactly that ask.",
+      "stack": [
+        "React Native + Expo",
+        "Supabase",
+        "Expo Notifications",
+        "App Store/Play Console"
+      ],
+      "mvpWeeks": [
+        3,
+        6
+      ],
+      "price": [
+        2250,
+        4500
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–14: build the core (Cross-platform MVP (React Native/Expo): auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($3,000–$5,000)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: End-to-end Android real-money casino app: architecture…",
+      "emailBody": "Hi Licensed UK gambling operator,\n\nSaw your brief: End-to-end Android real-money casino app: architecture, build, compliance prep, Google…. I build exactly that: cross-platform MVP (react native/expo): auth, normally 3–6 weeks, $2,250–$4,500 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: End-to-end Android real-money casino app: architecture, build…. I can ship cross-platform MVP (react native/expo): auth in 3–6 weeks for $2,250–$4,500 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Licensed UK gambling operator? I'm Sumant — I build mobile apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_truemarch-applied-ai-decentralised-infra_full-s",
+    "name": "TrueMarch (applied AI / decentralised infra co.)",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/full-stack-development/full-stack-developer-needed-40812681",
+    "postedAt": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.695Z",
+    "budgetHints": [
+      270,
+      810
+    ],
+    "bids": 0,
+    "service": "ai_chatbot",
+    "need": {
+      "summary": "Ongoing contract work on full-stack TypeScript/Node/React apps plus LLM features (RAG, tool use, agent workflows) and AI evaluation; long-term possible.",
+      "evidence": "Ongoing contract work on full-stack TypeScript/Node/React apps plus LLM features (RAG, tool use, agent workflows) and AI evaluation; long-term possible.\nBudget: €250-750 (posted bracket; client is US-based, site displayed EUR)",
+      "signals": [
+        "Budget: €250-750 (posted bracket; client is US-b",
+        "0d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/full-stack-development/full-stack-developer-needed-40812681",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "9 proposals only - unusually low for this category. Client payment NOT verified.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-11"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 79,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 16,
+        "recency": 20,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $810+"
+      ]
+    },
+    "proposal": {
+      "build": "RAG chatbot trained on their services/FAQs, WhatsApp + website widget, lead capture into Google Sheets/CRM",
+      "why": "They asked for this in public: \"Ongoing contract work on full-stack TypeScript/Node/React apps plus LLM features (RAG, tool use, agent workflo\". RAG chatbot trained on their services/FAQs answers exactly that ask.",
+      "stack": [
+        "OpenAI/Claude API",
+        "pgvector or Pinecone",
+        "Next.js widget",
+        "WhatsApp Cloud API"
+      ],
+      "mvpWeeks": [
+        1,
+        3
+      ],
+      "price": [
+        203,
+        729
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (RAG chatbot trained on their services/FAQs)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($270–$810)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Ongoing contract work on full-stack TypeScript/Node/React…",
+      "emailBody": "Hi TrueMarch,\n\nSaw your brief: Ongoing contract work on full-stack TypeScript/Node/React apps plus LLM features (RAG…. I build exactly that: rag chatbot trained on their services/faqs, normally 1–3 weeks, $203–$729 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Ongoing contract work on full-stack TypeScript/Node/React apps plus…. I can ship rag chatbot trained on their services/faqs in 1–3 weeks for $203–$729 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this TrueMarch (applied AI / decentralised infra co.)? I'm Sumant — I build AI chatbots for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_uk-company-unnamed-in-public-text-_full-s",
+    "name": "UK company (unnamed in public text)",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/full-stack-development/full-stack-web-developer-required-40812702",
+    "postedAt": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.729Z",
+    "budgetHints": [
+      953,
+      1905
+    ],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "Build/refine a responsive marketing platform, implement front-end functionality, integrate backend services, own delivery across desktop/tablet/mobile.",
+      "evidence": "Build/refine a responsive marketing platform, implement front-end functionality, integrate backend services, own delivery across desktop/tablet/mobile.\nBudget: £750-1,500",
+      "signals": [
+        "Budget: £750-1,500",
+        "0d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/full-stack-development/full-stack-web-developer-required-40812702",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Only 5 proposals, payment verified - one of the cleanest UK briefs in this set.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-11"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 78,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 16,
+        "recency": 20,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $1,905+"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"Build/refine a responsive marketing platform, implement front-end functionality, integrate backend services, o\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        715,
+        1715
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($953–$1,905)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Build/refine a responsive marketing platform, implement…",
+      "emailBody": "Hi UK company,\n\nSaw your brief: Build/refine a responsive marketing platform, implement front-end functionality…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $715–$1,715 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Build/refine a responsive marketing platform, implement front-end…. I can ship MVP web app with auth in 2–4 weeks for $715–$1,715 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this UK company (unnamed in public text)? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_uk-custom-cue-maker_render",
+    "name": "UK custom cue maker",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/rendering/custom-pool-cue-design-website",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.731Z",
+    "budgetHints": [
+      318,
+      953
+    ],
+    "bids": 0,
+    "service": "ecommerce",
+    "need": {
+      "summary": "E-commerce site with a live 3D cue configurator (colours, wrap, length, weight, tip, engraving, uploaded graphics) that renders in real time and checks out.",
+      "evidence": "E-commerce site with a live 3D cue configurator (colours, wrap, length, weight, tip, engraving, uploaded graphics) that renders in real time and checks out.\nBudget: £250-750",
+      "signals": [
+        "Budget: £250-750",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/rendering/custom-pool-cue-design-website",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment unverified. Genuinely interesting 3D/web build; bracket likely too low for full 3D configurator.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 78,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 16,
+        "recency": 20,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $953+"
+      ]
+    },
+    "proposal": {
+      "build": "Shopify/headless store build or rebuild: product pages, checkout fixes, speed, abandoned-cart email flow",
+      "why": "They asked for this in public: \"E-commerce site with a live 3D cue configurator (colours, wrap, length, weight, tip, engraving, uploaded graph\". Shopify/headless store build or rebuild: product pages answers exactly that ask.",
+      "stack": [
+        "Shopify Liquid / Hydrogen",
+        "Klaviyo",
+        "Next.js",
+        "Stripe"
+      ],
+      "mvpWeeks": [
+        1,
+        3
+      ],
+      "price": [
+        239,
+        858
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Shopify/headless store build or rebuild: product pages)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($318–$953)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: E-commerce site with a live 3D cue configurator (colours…",
+      "emailBody": "Hi UK custom cue maker,\n\nSaw your brief: E-commerce site with a live 3D cue configurator (colours, wrap, length, weight, tip…. I build exactly that: shopify/headless store build or rebuild: product pages, normally 1–3 weeks, $239–$858 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: E-commerce site with a live 3D cue configurator (colours, wrap…. I can ship shopify/headless store build or rebuild: product pages in 1–3 weeks for $239–$858 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this UK custom cue maker? I'm Sumant — I build e-commerce stores for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_uk-back-office-team-unnamed-_ai-aut",
+    "name": "UK back-office team (unnamed)",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/ai-automation/driven-daily-brief-integration",
+    "postedAt": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.731Z",
+    "budgetHints": [
+      318,
+      953
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Wire AI into email, calendar, meeting notes and task lists to produce a daily brief, summarise and prioritise incoming mail, and draft replies to common emails.",
+      "evidence": "Wire AI into email, calendar, meeting notes and task lists to produce a daily brief, summarise and prioritise incoming mail, and draft replies to common emails.\nBudget: £250-750",
+      "signals": [
+        "Budget: £250-750",
+        "2d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/ai-automation/driven-daily-brief-integration",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment unverified. Classic AI-automation retainer entry point.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-09"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 78,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 16,
+        "recency": 20,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $953+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Wire AI into email, calendar, meeting notes and task lists to produce a daily brief, summarise and prioritise \". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        239,
+        858
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($318–$953)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Wire AI into email, calendar, meeting notes and task lists to…",
+      "emailBody": "Hi UK back-office team,\n\nSaw your brief: Wire AI into email, calendar, meeting notes and task lists to produce a daily brief…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $239–$858 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Wire AI into email, calendar, meeting notes and task lists to produce…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $239–$858 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this UK back-office team (unnamed)? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_australian-construction-firm_dot-ne",
+    "name": "Australian construction firm",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/dot-net/powered-construction-planning-software",
+    "postedAt": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      10000,
+      20000
+    ],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "AI-assisted construction project and schedule planning software with planned-vs-actual cost tracking and a management UI.",
+      "evidence": "AI-assisted construction project and schedule planning software with planned-vs-actual cost tracking and a management UI.\nBudget: $10,000-20,000 AUD",
+      "signals": [
+        "Budget: $10,000-20,000 AUD",
+        "0d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/dot-net/powered-construction-planning-software",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Zero proposals at time of check and payment verified - strongest budget-to-competition ratio in the whole dataset.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-11"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 78,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 20,
+        "recency": 20,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $20,000+"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"AI-assisted construction project and schedule planning software with planned-vs-actual cost tracking and a man\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        7500,
+        18000
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($10,000–$20,000)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: AI-assisted construction project and schedule planning…",
+      "emailBody": "Hi Australian construction firm,\n\nSaw your brief: AI-assisted construction project and schedule planning software with planned-vs-actual…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $7,500–$18,000 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: AI-assisted construction project and schedule planning software with…. I can ship MVP web app with auth in 2–4 weeks for $7,500–$18,000 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Australian construction firm? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_colombia-based-buyer_api-de",
+    "name": "Colombia-based buyer",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/api-developmet/deploy-three-claude-agents",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      5000,
+      10000
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Deploy three Claude-based agents against an AWS database. Four-word brief.",
+      "evidence": "Deploy three Claude-based agents against an AWS database. Four-word brief.\nBudget: $5,000-10,000",
+      "signals": [
+        "Budget: $5,000-10,000",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/api-developmet/deploy-three-claude-agents",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment verified, but description is 'Claude. AWS database. 3 agents' - scope unknown until you talk to them.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "B"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 78,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 20,
+        "recency": 20,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $10,000+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Deploy three Claude-based agents against an AWS database. Four-word brief.\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        3750,
+        9000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($5,000–$10,000)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Deploy three Claude-based agents against an AWS database…",
+      "emailBody": "Hi Colombia-based buyer,\n\nSaw your brief: Deploy three Claude-based agents against an AWS database. Four-word brief. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $3,750–$9,000 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Deploy three Claude-based agents against an AWS database. Four-word…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $3,750–$9,000 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Colombia-based buyer? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_indian-enterprise-buyer-orbit-project-_python",
+    "name": "Indian enterprise buyer (ORBIT project)",
+    "kind": "post",
+    "country": "IN",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/python/build-operations-intelligence-saas",
+    "postedAt": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      55000,
+      60000
+    ],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "Build 'ORBIT': SaaS control plane connecting business apps, monitoring processes, detecting anomalies, finding root causes and recommending/executing corrective actions.",
+      "evidence": "Build 'ORBIT': SaaS control plane connecting business apps, monitoring processes, detecting anomalies, finding root causes and recommending/executing corrective actions.\nBudget: min ₹50,00,000 (INR 5,000,000+, ~$55k+)",
+      "signals": [
+        "Budget: min ₹50,00,000 (INR 5,000,000+, ~$55k+)",
+        "2d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/python/build-operations-intelligence-saas",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Payment verified, 9 proposals. Large enterprise scope - realistic only as a team/phase-1 proposal.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-09"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 77,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 20,
+        "recency": 20,
+        "geo": 4,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $60,000+"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"Build 'ORBIT': SaaS control plane connecting business apps, monitoring processes, detecting anomalies, finding\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        41250,
+        54000
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($55,000–$60,000)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Build 'ORBIT': SaaS control plane connecting business apps…",
+      "emailBody": "Hi Indian enterprise buyer,\n\nSaw your brief: Build 'ORBIT': SaaS control plane connecting business apps, monitoring processes…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $41,250–$54,000 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Build 'ORBIT': SaaS control plane connecting business apps…. I can ship MVP web app with auth in 2–4 weeks for $41,250–$54,000 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Indian enterprise buyer (ORBIT project)? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_india-based-buyer-unnamed-_ai-age",
+    "name": "India-based buyer (unnamed)",
+    "kind": "post",
+    "country": "IN",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/ai-agents/build-autonomous-business-engine",
+    "postedAt": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      6000,
+      12000
+    ],
+    "bids": 0,
+    "service": "ai_agent",
+    "need": {
+      "summary": "Agentic 'autonomous business engine' replacing trigger-based automation: agents that handle changing information, API failures and context-dependent decisions.",
+      "evidence": "Agentic 'autonomous business engine' replacing trigger-based automation: agents that handle changing information, API failures and context-dependent decisions.\nBudget: ₹500,000-1,000,000",
+      "signals": [
+        "Budget: ₹500,000-1,000,000",
+        "2d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/ai-agents/build-autonomous-business-engine",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment verified. Buzzword-heavy brief; scope will need heavy narrowing before quoting.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-09"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 77,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 20,
+        "recency": 20,
+        "geo": 4,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $12,000+"
+      ]
+    },
+    "proposal": {
+      "build": "One automated workflow (intake → qualify → reply → CRM) with an AI agent + human approval step and a dashboard of what it saved",
+      "why": "They asked for this in public: \"Agentic 'autonomous business engine' replacing trigger-based automation: agents that handle changing informati\". One automated workflow (intake → qualify → reply → CRM) with an AI agent + human approval step and a dashboard of what it saved answers exactly that ask.",
+      "stack": [
+        "n8n/Make",
+        "OpenAI API",
+        "Airtable/Supabase",
+        "Slack alerts"
+      ],
+      "mvpWeeks": [
+        1,
+        3
+      ],
+      "price": [
+        4500,
+        10800
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (One automated workflow (intake → qualify → reply → CRM) with an AI agent + human approval step and a dashboard of what it saved)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($6,000–$12,000)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Agentic 'autonomous business engine' replacing trigger-based…",
+      "emailBody": "Hi India-based buyer,\n\nSaw your brief: Agentic 'autonomous business engine' replacing trigger-based automation: agents that…. I build exactly that: one automated workflow (intake → qualify → reply → CRM) with an ai agent + human approval step and a dashboard of what it saved, normally 1–3 weeks, $4,500–$10,800 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Agentic 'autonomous business engine' replacing trigger-based…. I can ship one automated workflow (intake → qualify → reply → CRM) with an ai agent + human approval step and a dashboard of what it saved in 1–3 weeks for $4,500–$10,800 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this India-based buyer (unnamed)? I'm Sumant — I build AI automations for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "osm_2363319581",
+    "name": "General Dentistry",
+    "kind": "business",
+    "country": "US",
+    "city": "Dallas, TX",
+    "verticalLabel": "Dental clinics",
+    "verticalHook": "new-patient bookings",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/2363319581",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:26:38.175Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "General Dentistry is listed on OpenStreetMap in Dallas, TX with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Dental clinics in Dallas, TX with no website — losing new-patient bookings to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "new-patient bookings"
+      ]
+    },
+    "contact": {
+      "phone": "+1 972 247 4614",
+      "email": "",
+      "website": "",
+      "address": "15560 Quorum Drive, Addison, 75001",
+      "url": "https://www.openstreetmap.org/node/2363319581",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 76,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 10,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "General Dentistry is listed on OpenStreetMap in Dallas, TX with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "General Dentistry — a site that takes bookings",
+      "emailBody": "Hi General Dentistry team,\n\nI came across General Dentistry in Dallas, TX and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for dental clinics. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $800–$3,000 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi General — came across General Dentistry in Dallas, TX. Your listing has no website, so people can't book online. I build websites for dental clinics, 1–2 weeks, $800–$3,000 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this General Dentistry? I'm Sumant — I build websites for dental clinics in Dallas, TX. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "osm_3763263565",
+    "name": "Hometown Dental",
+    "kind": "business",
+    "country": "US",
+    "city": "Dallas, TX",
+    "verticalLabel": "Dental clinics",
+    "verticalHook": "new-patient bookings",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/3763263565",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:26:38.175Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Hometown Dental is listed on OpenStreetMap in Dallas, TX with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Dental clinics in Dallas, TX with no website — losing new-patient bookings to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "new-patient bookings"
+      ]
+    },
+    "contact": {
+      "phone": "+1 972-870-5800",
+      "email": "",
+      "website": "",
+      "address": "118 East John W Carpenter Freeway, Irving, 75062",
+      "url": "https://www.openstreetmap.org/node/3763263565",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 76,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 10,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Hometown Dental is listed on OpenStreetMap in Dallas, TX with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Hometown Dental — a site that takes bookings",
+      "emailBody": "Hi Hometown Dental team,\n\nI came across Hometown Dental in Dallas, TX and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for dental clinics. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $800–$3,000 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Hometown — came across Hometown Dental in Dallas, TX. Your listing has no website, so people can't book online. I build websites for dental clinics, 1–2 weeks, $800–$3,000 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Hometown Dental? I'm Sumant — I build websites for dental clinics in Dallas, TX. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "osm_1165318835",
+    "name": "Dr. Yaelle Gabay, DDS",
+    "kind": "business",
+    "country": "US",
+    "city": "Los Angeles, CA",
+    "verticalLabel": "Dental clinics",
+    "verticalHook": "new-patient bookings",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/1165318835",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:27:15.783Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Dr. Yaelle Gabay, DDS is listed on OpenStreetMap in Los Angeles, CA with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Dental clinics in Los Angeles, CA with no website — losing new-patient bookings to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "new-patient bookings"
+      ]
+    },
+    "contact": {
+      "phone": "+1 818-848-3322",
+      "email": "",
+      "website": "",
+      "address": "2701 West Alameda Avenue, Burbank, 91505",
+      "url": "https://www.openstreetmap.org/node/1165318835",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 76,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 10,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Dr. Yaelle Gabay, DDS is listed on OpenStreetMap in Los Angeles, CA with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Dr. Yaelle Gabay, DDS — a site that takes bookings",
+      "emailBody": "Hi Dr. Yaelle Gabay, DDS team,\n\nI came across Dr. Yaelle Gabay, DDS in Los Angeles, CA and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for dental clinics. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $800–$3,000 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Dr. — came across Dr. Yaelle Gabay, DDS in Los Angeles, CA. Your listing has no website, so people can't book online. I build websites for dental clinics, 1–2 weeks, $800–$3,000 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Dr. Yaelle Gabay, DDS? I'm Sumant — I build websites for dental clinics in Los Angeles, CA. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "osm_3840242085",
+    "name": "Complete Health Dentistry",
+    "kind": "business",
+    "country": "US",
+    "city": "Los Angeles, CA",
+    "verticalLabel": "Dental clinics",
+    "verticalHook": "new-patient bookings",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/3840242085",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:27:15.783Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Complete Health Dentistry is listed on OpenStreetMap in Los Angeles, CA with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Dental clinics in Los Angeles, CA with no website — losing new-patient bookings to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "new-patient bookings"
+      ]
+    },
+    "contact": {
+      "phone": "+1-818-225-0046",
+      "email": "",
+      "website": "",
+      "address": "",
+      "url": "https://www.openstreetmap.org/node/3840242085",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 76,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 10,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Complete Health Dentistry is listed on OpenStreetMap in Los Angeles, CA with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Complete Health Dentistry — a site that takes bookings",
+      "emailBody": "Hi Complete Health Dentistry team,\n\nI came across Complete Health Dentistry in Los Angeles, CA and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for dental clinics. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $800–$3,000 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Complete — came across Complete Health Dentistry in Los Angeles, CA. Your listing has no website, so people can't book online. I build websites for dental clinics, 1–2 weeks, $800–$3,000 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Complete Health Dentistry? I'm Sumant — I build websites for dental clinics in Los Angeles, CA. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "rs_uk-e-commerce-owner_nce-jo",
+    "name": "UK e-commerce owner",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/technology-programming/e-commerce-cms-development/complete-launch-existing-woodmart-woocommerce-website-4530138",
+    "postedAt": "2026-11-07T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      335
+    ],
+    "bids": 0,
+    "service": "ecommerce",
+    "need": {
+      "summary": "Finish and launch an existing WoodMart/WooCommerce/WPBakery site: complete content, configure ecommerce, refine design. Wants immediate availability.",
+      "evidence": "Finish and launch an existing WoodMart/WooCommerce/WPBakery site: complete content, configure ecommerce, refine design. Wants immediate availability.\nBudget: £264",
+      "signals": [
+        "Budget: £264",
+        "4d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/e-commerce-cms-development/complete-launch-existing-woodmart-woocommerce-website-4530138",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "74 proposals. 'Immediate availability' = urgency signal; small but fast WordPress/Woo job.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-07"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 76,
+      "band": "A",
+      "breakdown": {
+        "intent": 23,
+        "budget": 12,
+        "recency": 17,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $335+"
+      ]
+    },
+    "proposal": {
+      "build": "Shopify/headless store build or rebuild: product pages, checkout fixes, speed, abandoned-cart email flow",
+      "why": "They asked for this in public: \"Finish and launch an existing WoodMart/WooCommerce/WPBakery site: complete content, configure ecommerce, refin\". Shopify/headless store build or rebuild: product pages answers exactly that ask.",
+      "stack": [
+        "Shopify Liquid / Hydrogen",
+        "Klaviyo",
+        "Next.js",
+        "Stripe"
+      ],
+      "mvpWeeks": [
+        1,
+        3
+      ],
+      "price": [
+        251,
+        451
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Shopify/headless store build or rebuild: product pages)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($335–$335)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Finish and launch an existing WoodMart/WooCommerce/WPBakery…",
+      "emailBody": "Hi UK e-commerce owner,\n\nSaw your brief: Finish and launch an existing WoodMart/WooCommerce/WPBakery site: complete content…. I build exactly that: shopify/headless store build or rebuild: product pages, normally 1–3 weeks, $251–$451 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Finish and launch an existing WoodMart/WooCommerce/WPBakery site…. I can ship shopify/headless store build or rebuild: product pages in 1–3 weeks for $251–$451 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this UK e-commerce owner? I'm Sumant — I build e-commerce stores for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "osm_e261325961",
+    "name": "Tia Maria Bar & Kitchen",
+    "kind": "business",
+    "country": "UK",
+    "city": "London",
+    "verticalLabel": "Restaurants",
+    "verticalHook": "reservations and online orders",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/261325961",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:29:58.098Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Tia Maria Bar & Kitchen is listed on OpenStreetMap in London with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Restaurants in London with no website — losing reservations and online orders to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "reservations and online orders"
+      ]
+    },
+    "contact": {
+      "phone": "+44 20 7622 3602",
+      "email": "",
+      "website": "",
+      "address": "126 South Lambeth Road, London, SW8 1RB",
+      "url": "https://www.openstreetmap.org/node/261325961",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 9,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Tia Maria Bar & Kitchen is listed on OpenStreetMap in London with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        700,
+        2600
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Tia Maria Bar & Kitchen — a site that takes bookings",
+      "emailBody": "Hi Tia Maria Bar & Kitchen team,\n\nI came across Tia Maria Bar & Kitchen in London and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for restaurants. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $700–$2,600 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Tia — came across Tia Maria Bar & Kitchen in London. Your listing has no website, so people can't book online. I build websites for restaurants, 1–2 weeks, $700–$2,600 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Tia Maria Bar & Kitchen? I'm Sumant — I build websites for restaurants in London. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "osm_de31257652",
+    "name": "Sai Spice",
+    "kind": "business",
+    "country": "UK",
+    "city": "Manchester",
+    "verticalLabel": "Restaurants",
+    "verticalHook": "reservations and online orders",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/31257652",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:30:19.177Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Sai Spice is listed on OpenStreetMap in Manchester with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Restaurants in Manchester with no website — losing reservations and online orders to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "reservations and online orders"
+      ]
+    },
+    "contact": {
+      "phone": "+44 161 862 0123",
+      "email": "",
+      "website": "",
+      "address": "Mauldeth Road West, Manchester, M21 7SP",
+      "url": "https://www.openstreetmap.org/node/31257652",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 9,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Sai Spice is listed on OpenStreetMap in Manchester with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        700,
+        2600
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Sai Spice — a site that takes bookings",
+      "emailBody": "Hi Sai Spice team,\n\nI came across Sai Spice in Manchester and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for restaurants. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $700–$2,600 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Sai — came across Sai Spice in Manchester. Your listing has no website, so people can't book online. I build websites for restaurants, 1–2 weeks, $700–$2,600 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Sai Spice? I'm Sumant — I build websites for restaurants in Manchester. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "osm_1278748217",
+    "name": "Shiva Tandoori & Balti House",
+    "kind": "business",
+    "country": "UK",
+    "city": "Manchester",
+    "verticalLabel": "Restaurants",
+    "verticalHook": "reservations and online orders",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/1278748217",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:30:19.177Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Shiva Tandoori & Balti House is listed on OpenStreetMap in Manchester with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Restaurants in Manchester with no website — losing reservations and online orders to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "reservations and online orders"
+      ]
+    },
+    "contact": {
+      "phone": "+44 161 861 7455",
+      "email": "",
+      "website": "",
+      "address": "",
+      "url": "https://www.openstreetmap.org/node/1278748217",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 9,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Shiva Tandoori & Balti House is listed on OpenStreetMap in Manchester with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        700,
+        2600
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Shiva Tandoori & Balti House — a site that takes bookings",
+      "emailBody": "Hi Shiva Tandoori & Balti House team,\n\nI came across Shiva Tandoori & Balti House in Manchester and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for restaurants. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $700–$2,600 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Shiva — came across Shiva Tandoori & Balti House in Manchester. Your listing has no website, so people can't book online. I build websites for restaurants, 1–2 weeks, $700–$2,600 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Shiva Tandoori & Balti House? I'm Sumant — I build websites for restaurants in Manchester. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "osm_1555224930",
+    "name": "Red Chili",
+    "kind": "business",
+    "country": "UK",
+    "city": "Manchester",
+    "verticalLabel": "Restaurants",
+    "verticalHook": "reservations and online orders",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/1555224930",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:30:19.177Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Red Chili is listed on OpenStreetMap in Manchester with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Restaurants in Manchester with no website — losing reservations and online orders to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "reservations and online orders"
+      ]
+    },
+    "contact": {
+      "phone": "+44 161 2362888",
+      "email": "",
+      "website": "",
+      "address": "70 Portland Street, Manchester, M1 4GU",
+      "url": "https://www.openstreetmap.org/node/1555224930",
+      "lookup": "",
+      "route": "Call the listed number (best first touch)"
+    },
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 9,
+        "fit": 15,
+        "contact": 5
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Red Chili is listed on OpenStreetMap in Manchester with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        700,
+        2600
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Red Chili — a site that takes bookings",
+      "emailBody": "Hi Red Chili team,\n\nI came across Red Chili in Manchester and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for restaurants. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $700–$2,600 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Red — came across Red Chili in Manchester. Your listing has no website, so people can't book online. I build websites for restaurants, 1–2 weeks, $700–$2,600 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Red Chili? I'm Sumant — I build websites for restaurants in Manchester. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Call the listed number (best first touch)"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "rs_gigresource-us-_web-de",
+    "name": "GigResource (US)",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/web-design/gigresource-responsive-design-refinement",
+    "postedAt": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.728Z",
+    "budgetHints": [
+      250,
+      750
+    ],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "Polish an existing web app UI without redesigning: sidebar states/icons, responsive layouts across mobile/tablet/laptop, consistent design system.",
+      "evidence": "Polish an existing web app UI without redesigning: sidebar states/icons, responsive layouts across mobile/tablet/laptop, consistent design system.\nBudget: $250-750",
+      "signals": [
+        "Budget: $250-750",
+        "0d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/web-design/gigresource-responsive-design-refinement",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Only 2 proposals at time of check, payment verified - best competition/quality ratio found on this board.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-11"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 20,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $750+"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"Polish an existing web app UI without redesigning: sidebar states/icons, responsive layouts across mobile/tabl\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        200,
+        675
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($250–$750)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Polish an existing web app UI without redesigning: sidebar…",
+      "emailBody": "Hi GigResource,\n\nSaw your brief: Polish an existing web app UI without redesigning: sidebar states/icons, responsive…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $200–$675 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Polish an existing web app UI without redesigning: sidebar…. I can ship MVP web app with auth in 2–4 weeks for $200–$675 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this GigResource (US)? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_unnamed-has-finished-front-end-us-_backen",
+    "name": "Unnamed (has finished front-end, US)",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/backend-development/forum-chat-backend-development",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.729Z",
+    "budgetHints": [
+      250,
+      750
+    ],
+    "bids": 0,
+    "service": "ai_agent",
+    "need": {
+      "summary": "Server-side build for a forum + real-time chat product: accounts/profiles, public and private chat, moderator dashboard with bans/deletes, Cloudflare integration.",
+      "evidence": "Server-side build for a forum + real-time chat product: accounts/profiles, public and private chat, moderator dashboard with bans/deletes, Cloudflare integration.\nBudget: $250-750",
+      "signals": [
+        "Budget: $250-750",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/backend-development/forum-chat-backend-development",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals; client payment unverified. Front-end already exists, so scope is backend-only.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 20,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $750+"
+      ]
+    },
+    "proposal": {
+      "build": "One automated workflow (intake → qualify → reply → CRM) with an AI agent + human approval step and a dashboard of what it saved",
+      "why": "They asked for this in public: \"Server-side build for a forum + real-time chat product: accounts/profiles, public and private chat, moderator \". One automated workflow (intake → qualify → reply → CRM) with an AI agent + human approval step and a dashboard of what it saved answers exactly that ask.",
+      "stack": [
+        "n8n/Make",
+        "OpenAI API",
+        "Airtable/Supabase",
+        "Slack alerts"
+      ],
+      "mvpWeeks": [
+        1,
+        3
+      ],
+      "price": [
+        200,
+        675
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (One automated workflow (intake → qualify → reply → CRM) with an AI agent + human approval step and a dashboard of what it saved)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($250–$750)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Server-side build for a forum + real-time chat product…",
+      "emailBody": "Hi Unnamed,\n\nSaw your brief: Server-side build for a forum + real-time chat product: accounts/profiles, public and…. I build exactly that: one automated workflow (intake → qualify → reply → CRM) with an ai agent + human approval step and a dashboard of what it saved, normally 1–3 weeks, $200–$675 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Server-side build for a forum + real-time chat product…. I can ship one automated workflow (intake → qualify → reply → CRM) with an ai agent + human approval step and a dashboard of what it saved in 1–3 weeks for $200–$675 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Unnamed (has finished front-end, US)? I'm Sumant — I build AI automations for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_local-services-business-us-_conten",
+    "name": "Local services business (US)",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/content-writing/website-refresh-local-seo",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.729Z",
+    "budgetHints": [
+      250,
+      750
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Refresh an existing site (layout, copy, technical) and do local SEO - on-page, metadata, schema, Google Business - to surface in map pack and local organic results.",
+      "evidence": "Refresh an existing site (layout, copy, technical) and do local SEO - on-page, metadata, schema, Google Business - to surface in map pack and local organic results.\nBudget: $250-750",
+      "signals": [
+        "Budget: $250-750",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/content-writing/website-refresh-local-seo",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment verified. More SEO/CMS than app work but fits a web-dev offer.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 20,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $750+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Refresh an existing site (layout, copy, technical) and do local SEO - on-page, metadata, schema, Google Busine\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        200,
+        675
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($250–$750)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Refresh an existing site (layout, copy, technical) and do…",
+      "emailBody": "Hi Local services business,\n\nSaw your brief: Refresh an existing site (layout, copy, technical) and do local SEO - on-page, metadata…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $200–$675 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Refresh an existing site (layout, copy, technical) and do local SEO …. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $200–$675 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Local services business (US)? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_independent-practical-effects-artist-pro_web-de",
+    "name": "Independent practical-effects artist (props, prosthetics, makeup for film), US",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/web-design/portfolio-website-upgrade-for-artist",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.729Z",
+    "budgetHints": [
+      250,
+      750
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Build a professional portfolio site for a film FX artist to present services and work; current self-made portfolio is not presentable enough.",
+      "evidence": "Build a professional portfolio site for a film FX artist to present services and work; current self-made portfolio is not presentable enough.\nBudget: $250-750 (site displayed CAD)",
+      "signals": [
+        "Budget: $250-750 (site displayed CAD)",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/web-design/portfolio-website-upgrade-for-artist",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment unverified. Client says 'willing to hear different quotes'. Solo-artist budget, fast decision likely.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 75,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 20,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $750+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Build a professional portfolio site for a film FX artist to present services and work; current self-made portf\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        200,
+        675
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($250–$750)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Build a professional portfolio site for a film FX artist to…",
+      "emailBody": "Hi Independent practical-effects artist,\n\nSaw your brief: Build a professional portfolio site for a film FX artist to present services and work…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $200–$675 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Build a professional portfolio site for a film FX artist to present…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $200–$675 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Independent practical-effects artist (props, prosthetics, makeup for film), US? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_uk-bed-manufacturer-30-staff-trade-suppl_nce-jo",
+    "name": "UK bed manufacturer (30 staff, trade supplier going direct-to-consumer)",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/website-design-for-bed-manufacturer-4530536",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.731Z",
+    "budgetHints": [
+      635
+    ],
+    "bids": 0,
+    "service": "ecommerce",
+    "need": {
+      "summary": "High-end e-commerce store for a bed manufacturer moving into online retail, plus accompanying SEO work.",
+      "evidence": "High-end e-commerce store for a bed manufacturer moving into online retail, plus accompanying SEO work.\nBudget: £500",
+      "signals": [
+        "Budget: £500",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/website-design-for-bed-manufacturer-4530536",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "89 proposals - very crowded. But buyer is an established 30-person business, which usually means a real budget conversation.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 74,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 20,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $635+"
+      ]
+    },
+    "proposal": {
+      "build": "Shopify/headless store build or rebuild: product pages, checkout fixes, speed, abandoned-cart email flow",
+      "why": "They asked for this in public: \"High-end e-commerce store for a bed manufacturer moving into online retail, plus accompanying SEO work.\". Shopify/headless store build or rebuild: product pages answers exactly that ask.",
+      "stack": [
+        "Shopify Liquid / Hydrogen",
+        "Klaviyo",
+        "Next.js",
+        "Stripe"
+      ],
+      "mvpWeeks": [
+        1,
+        3
+      ],
+      "price": [
+        476,
+        676
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Shopify/headless store build or rebuild: product pages)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($635–$635)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: High-end e-commerce store for a bed manufacturer moving into…",
+      "emailBody": "Hi UK bed manufacturer,\n\nSaw your brief: High-end e-commerce store for a bed manufacturer moving into online retail, plus…. I build exactly that: shopify/headless store build or rebuild: product pages, normally 1–3 weeks, $476–$676 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: High-end e-commerce store for a bed manufacturer moving into online…. I can ship shopify/headless store build or rebuild: product pages in 1–3 weeks for $476–$676 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this UK bed manufacturer (30 staff, trade supplier going direct-to-consumer)? I'm Sumant — I build e-commerce stores for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_uk-career-services-business_nce-jo",
+    "name": "UK career-services business",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/artificial-intelligence/artificial-intelligence-website-development/ai-developer-cv-writing-career-assessment-document-inte-4529441",
+    "postedAt": "2026-11-03T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      19050
+    ],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "Build the AI processing layer for a CV-writing/career-consultancy platform: analyse candidate documents, generate CVs, assess against roles, LinkedIn optimisation.",
+      "evidence": "Build the AI processing layer for a CV-writing/career-consultancy platform: analyse candidate documents, generate CVs, assess against roles, LinkedIn optimisation.\nBudget: £15,000",
+      "signals": [
+        "Budget: £15,000",
+        "8d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/artificial-intelligence/artificial-intelligence-website-development/ai-developer-cv-writing-career-assessment-document-inte-4529441",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Largest UK budget in the set (57 proposals). Wants an experienced AI developer or small team - good fit for an agent/CV-pipeline specialist.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-03"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 74,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 20,
+        "recency": 12,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $19,050+"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"Build the AI processing layer for a CV-writing/career-consultancy platform: analyse candidate documents, gener\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        14288,
+        17145
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($19,050–$19,050)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Build the AI processing layer for a CV-writing/career-consulta…",
+      "emailBody": "Hi UK career-services business,\n\nSaw your brief: Build the AI processing layer for a CV-writing/career-consultancy platform: analyse…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $14,288–$17,145 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Build the AI processing layer for a CV-writing/career-consultancy…. I can ship MVP web app with auth in 2–4 weeks for $14,288–$17,145 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this UK career-services business? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_jobstoq-field-service-app-for-electrical_postgr",
+    "name": "JobStoq (field-service app for electrical contractors), Canada",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/postgresql/senior-full-stack-app-reliability",
+    "postedAt": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      750,
+      1500
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Review and harden a live TypeScript/React/Node/Postgres app (Drizzle, Clerk, pnpm monorepo on Replit) for reliability before wider rollout.",
+      "evidence": "Review and harden a live TypeScript/React/Node/Postgres app (Drizzle, Clerk, pnpm monorepo on Replit) for reliability before wider rollout.\nBudget: $750-1,500 CAD",
+      "signals": [
+        "Budget: $750-1,500 CAD",
+        "0d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/postgresql/senior-full-stack-app-reliability",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "16 proposals, payment verified. Audit-then-fix work; good foot-in-the-door with a real product.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-11"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 74,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 16,
+        "recency": 20,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $1,500+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Review and harden a live TypeScript/React/Node/Postgres app (Drizzle, Clerk, pnpm monorepo on Replit) for reli\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        563,
+        1350
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($750–$1,500)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Review and harden a live TypeScript/React/Node/Postgres app…",
+      "emailBody": "Hi JobStoq,\n\nSaw your brief: Review and harden a live TypeScript/React/Node/Postgres app (Drizzle, Clerk, pnpm…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $563–$1,350 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Review and harden a live TypeScript/React/Node/Postgres app (Drizzle…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $563–$1,350 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this JobStoq (field-service app for electrical contractors), Canada? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_india-based-internal-it-team_ai-cha",
+    "name": "India-based internal IT team",
+    "kind": "post",
+    "country": "IN",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/ai-chatbot/livekit-voice-auto-troubleshooting-agent",
+    "postedAt": "2026-11-09T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      900,
+      1800
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "LiveKit voice agent that opens a remote session to a Windows/macOS machine, diagnoses issues in plain language, asks yes/no confirmation and applies an approved fix; modular script library.",
+      "evidence": "LiveKit voice agent that opens a remote session to a Windows/macOS machine, diagnoses issues in plain language, asks yes/no confirmation and applies an approved fix; modular script library.\nBudget: ₹75,000-150,000",
+      "signals": [
+        "Budget: ₹75,000-150,000",
+        "2d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/ai-chatbot/livekit-voice-auto-troubleshooting-agent",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment verified. Well-specified AI voice + remote-support build.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-09"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 73,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 16,
+        "recency": 20,
+        "geo": 4,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $1,800+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"LiveKit voice agent that opens a remote session to a Windows/macOS machine, diagnoses issues in plain language\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        675,
+        1620
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($900–$1,800)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: LiveKit voice agent that opens a remote session to a…",
+      "emailBody": "Hi India-based internal IT team,\n\nSaw your brief: LiveKit voice agent that opens a remote session to a Windows/macOS machine, diagnoses…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $675–$1,620 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: LiveKit voice agent that opens a remote session to a Windows/macOS…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $675–$1,620 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this India-based internal IT team? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_unnamed-ecommerce-operator-us-_ai-app",
+    "name": "Unnamed eCommerce operator (US)",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/ai-app-development/driven-ecommerce-design-workflow",
+    "postedAt": "2026-11-05T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.729Z",
+    "budgetHints": [
+      250,
+      750
+    ],
+    "bids": 0,
+    "service": "ecommerce",
+    "need": {
+      "summary": "Build/configure an AI workflow that turns sketches, mood boards or copy into polished on-brand eCommerce page designs, with a simple front-end for prompts and uploads.",
+      "evidence": "Build/configure an AI workflow that turns sketches, mood boards or copy into polished on-brand eCommerce page designs, with a simple front-end for prompts and uploads.\nBudget: $250-750",
+      "signals": [
+        "Budget: $250-750",
+        "6d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/ai-app-development/driven-ecommerce-design-workflow",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals. Payment verified. Generative-design tooling, not a plain website build.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-05"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 72,
+      "band": "A",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 17,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $750+"
+      ]
+    },
+    "proposal": {
+      "build": "Shopify/headless store build or rebuild: product pages, checkout fixes, speed, abandoned-cart email flow",
+      "why": "They asked for this in public: \"Build/configure an AI workflow that turns sketches, mood boards or copy into polished on-brand eCommerce page \". Shopify/headless store build or rebuild: product pages answers exactly that ask.",
+      "stack": [
+        "Shopify Liquid / Hydrogen",
+        "Klaviyo",
+        "Next.js",
+        "Stripe"
+      ],
+      "mvpWeeks": [
+        1,
+        3
+      ],
+      "price": [
+        200,
+        675
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Shopify/headless store build or rebuild: product pages)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($250–$750)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Build/configure an AI workflow that turns sketches, mood…",
+      "emailBody": "Hi Unnamed eCommerce operator,\n\nSaw your brief: Build/configure an AI workflow that turns sketches, mood boards or copy into polished…. I build exactly that: shopify/headless store build or rebuild: product pages, normally 1–3 weeks, $200–$675 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Build/configure an AI workflow that turns sketches, mood boards or…. I can ship shopify/headless store build or rebuild: product pages in 1–3 weeks for $200–$675 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Unnamed eCommerce operator (US)? I'm Sumant — I build e-commerce stores for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_soundplus-graphikrafts-free-android-musi_ments-",
+    "name": "SoundPlus / Graphikrafts (free Android music streaming app)",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "reddit",
+    "sourceUrl": "https://www.reddit.com/r/forhire/comments/1xogb6x/hiring_uiux_designer_or_designer_developer_to/",
+    "postedAt": "2026-11-05T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.733Z",
+    "budgetHints": [
+      700
+    ],
+    "bids": 0,
+    "service": "mobile",
+    "need": {
+      "summary": "Redesign the SoundPlus landing page and Android app UI (home, player, queue, equaliser, library, search) with a Figma design system; optional follow-on rebuild of the buggy PHP site and Android app.",
+      "evidence": "Redesign the SoundPlus landing page and Android app UI (home, player, queue, equaliser, library, search) with a Figma design system; optional follow-on rebuild of the buggy PHP site and Android app.\nBudget: $700 for design; development quoted separately",
+      "signals": [
+        "Budget: $700 for design; development quoted sepa",
+        "6d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.reddit.com/r/forhire/comments/1xogb6x/hiring_uiux_designer_or_designer_developer_to/",
+      "route": "Reddit DM to poster / comment"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Explicit budget and a live product URL (music.graphikrafts.com). Design-led, but the optional 'design + develop' package is the higher-value path. Country not stated in post.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "reddit.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-05"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Reddit DM to poster / comment"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 72,
+      "band": "A",
+      "breakdown": {
+        "intent": 23,
+        "budget": 12,
+        "recency": 17,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $700+"
+      ]
+    },
+    "proposal": {
+      "build": "Cross-platform MVP (React Native/Expo): auth, 3 core screens, push notifications, store submission",
+      "why": "They asked for this in public: \"Redesign the SoundPlus landing page and Android app UI (home, player, queue, equaliser, library, search) with \". Cross-platform MVP (React Native/Expo): auth answers exactly that ask.",
+      "stack": [
+        "React Native + Expo",
+        "Supabase",
+        "Expo Notifications",
+        "App Store/Play Console"
+      ],
+      "mvpWeeks": [
+        3,
+        6
+      ],
+      "price": [
+        525,
+        725
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–14: build the core (Cross-platform MVP (React Native/Expo): auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($700–$700)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Redesign the SoundPlus landing page and Android app UI (home…",
+      "emailBody": "Hi SoundPlus / Graphikrafts,\n\nSaw your post: Redesign the SoundPlus landing page and Android app UI (home, player, queue, equaliser…. I build exactly that: cross-platform MVP (react native/expo): auth, normally 3–6 weeks, $525–$725 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your post: Redesign the SoundPlus landing page and Android app UI (home, player…. I can ship cross-platform MVP (react native/expo): auth in 3–6 weeks for $525–$725 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this SoundPlus / Graphikrafts (free Android music streaming app)? I'm Sumant — I build mobile apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_uk-matrimonial-app-founders_nce-jo",
+    "name": "UK matrimonial app founders",
+    "kind": "post",
+    "country": "UK",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/technology-programming/mobile-app-development/mobile-app-designer-developer-full-matrimonial-app-bui-4530154",
+    "postedAt": "2026-11-08T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.731Z",
+    "budgetHints": [
+      508
+    ],
+    "bids": 0,
+    "service": "mobile",
+    "need": {
+      "summary": "Full iOS + Android matrimonial app build from concept: design, development and working app delivery.",
+      "evidence": "Full iOS + Android matrimonial app build from concept: design, development and working app delivery.\nBudget: £400",
+      "signals": [
+        "Budget: £400",
+        "3d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/mobile-app-development/mobile-app-designer-developer-full-matrimonial-app-bui-4530154",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "52 proposals and the bracket is low for a two-platform app; expect scope negotiation. Good example of UK small-business app demand.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-08"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 71,
+      "band": "B",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 17,
+        "geo": 9,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $508+"
+      ]
+    },
+    "proposal": {
+      "build": "Cross-platform MVP (React Native/Expo): auth, 3 core screens, push notifications, store submission",
+      "why": "They asked for this in public: \"Full iOS + Android matrimonial app build from concept: design, development and working app delivery.\". Cross-platform MVP (React Native/Expo): auth answers exactly that ask.",
+      "stack": [
+        "React Native + Expo",
+        "Supabase",
+        "Expo Notifications",
+        "App Store/Play Console"
+      ],
+      "mvpWeeks": [
+        3,
+        6
+      ],
+      "price": [
+        381,
+        581
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–14: build the core (Cross-platform MVP (React Native/Expo): auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($508–$508)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Full iOS + Android matrimonial app build from concept…",
+      "emailBody": "Hi UK matrimonial app founders,\n\nSaw your brief: Full iOS + Android matrimonial app build from concept: design, development and working…. I build exactly that: cross-platform MVP (react native/expo): auth, normally 3–6 weeks, $381–$581 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Full iOS + Android matrimonial app build from concept: design…. I can ship cross-platform MVP (react native/expo): auth in 3–6 weeks for $381–$581 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this UK matrimonial app founders? I'm Sumant — I build mobile apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_netherlands-dental-tech-founder_machin",
+    "name": "Netherlands dental-tech founder",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "freelancer",
+    "sourceUrl": "https://www.freelancer.com/projects/machine-learning/smile-design-platform-build",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      250,
+      750
+    ],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "AI dental smile-design platform: upload face/intra-oral photos, detect lips/teeth/gingiva, generate photorealistic simulation, then interactive refinement of tooth shape/size/colour.",
+      "evidence": "AI dental smile-design platform: upload face/intra-oral photos, detect lips/teeth/gingiva, generate photorealistic simulation, then interactive refinement of tooth shape/size/colour.\nBudget: $250-750",
+      "signals": [
+        "Budget: $250-750",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.freelancer.com/projects/machine-learning/smile-design-platform-build",
+      "route": "Bid on the Freelancer.com project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "20 proposals, payment verified. CV/GAN-heavy; bracket looks far below the real effort.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "freelancer.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Bid on the Freelancer.com project page (free account)"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 70,
+      "band": "B",
+      "breakdown": {
+        "intent": 18,
+        "budget": 12,
+        "recency": 20,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $750+"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"AI dental smile-design platform: upload face/intra-oral photos, detect lips/teeth/gingiva, generate photoreali\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        200,
+        675
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($250–$750)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: AI dental smile-design platform: upload face/intra-oral…",
+      "emailBody": "Hi Netherlands dental-tech founder,\n\nSaw your brief: AI dental smile-design platform: upload face/intra-oral photos, detect…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $200–$675 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: AI dental smile-design platform: upload face/intra-oral photos…. I can ship MVP web app with auth in 2–4 weeks for $200–$675 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Netherlands dental-tech founder? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_adr-property-management-us-_nce-jo",
+    "name": "ADR Property Management (US)",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/business/management-development/develop-a-user-friendly-comprehensive-website-for-adr-prope-4530485",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.729Z",
+    "budgetHints": [],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "Website for a 700+ unit property portfolio: listings with images/availability/pricing, cart to order storage units online, secure customer portal.",
+      "evidence": "Website for a 700+ unit property portfolio: listings with images/availability/pricing, cart to order storage units online, secure customer portal.\nBudget: £88 (displayed GBP)",
+      "signals": [
+        "Budget: £88 (displayed GBP)",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/business/management-development/develop-a-user-friendly-comprehensive-website-for-adr-prope-4530485",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "52 proposals and a very low bracket for portal + cart work - realistic only as a phased quote. Included because US demand for portal work is rare on PpH.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 69,
+      "band": "B",
+      "breakdown": {
+        "intent": 18,
+        "budget": 6,
+        "recency": 20,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "No budget stated — qualify on the call"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"Website for a 700+ unit property portfolio: listings with images/availability/pricing, cart to order storage u\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        2500,
+        9000
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Website for a 700+ unit property portfolio: listings with…",
+      "emailBody": "Hi ADR Property Management,\n\nSaw your brief: Website for a 700+ unit property portfolio: listings with images/availability/pricing…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $2,500–$9,000 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Website for a 700+ unit property portfolio: listings with…. I can ship MVP web app with auth in 2–4 weeks for $2,500–$9,000 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this ADR Property Management (US)? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "osm_e564536984",
+    "name": "Smiles by Dentistry",
+    "kind": "business",
+    "country": "US",
+    "city": "Austin, TX",
+    "verticalLabel": "Dental clinics",
+    "verticalHook": "new-patient bookings",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/564536984",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:25:29.649Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Smiles by Dentistry is listed on OpenStreetMap in Austin, TX with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Dental clinics in Austin, TX with no website — losing new-patient bookings to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "new-patient bookings"
+      ]
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "address": "130 Brodie Lane",
+      "url": "https://www.openstreetmap.org/node/564536984",
+      "lookup": "https://www.google.com/maps/search/?api=1&query=Smiles%20by%20Dentistry%20130%20Brodie%20Lane",
+      "route": "No number in the map data — use the lookup link, then call"
+    },
+    "score": {
+      "total": 68,
+      "band": "B",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 10,
+        "fit": 15,
+        "contact": 3
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting",
+        "No phone/email on the listing — find the number before calling"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Smiles by Dentistry is listed on OpenStreetMap in Austin, TX with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Smiles by Dentistry — a site that takes bookings",
+      "emailBody": "Hi Smiles by Dentistry team,\n\nI came across Smiles by Dentistry in Austin, TX and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for dental clinics. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $800–$3,000 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Smiles — came across Smiles by Dentistry in Austin, TX. Your listing has no website, so people can't book online. I build websites for dental clinics, 1–2 weeks, $800–$3,000 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Smiles by Dentistry? I'm Sumant — I build websites for dental clinics in Austin, TX. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "No number in the map data — use the lookup link, then call"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "osm_3356311613",
+    "name": "Chisholm Trail Dental Health",
+    "kind": "business",
+    "country": "US",
+    "city": "Austin, TX",
+    "verticalLabel": "Dental clinics",
+    "verticalHook": "new-patient bookings",
+    "source": "osm",
+    "sourceUrl": "https://www.openstreetmap.org/node/3356311613",
+    "postedAt": null,
+    "fetchedAt": "2026-11-11T05:25:29.650Z",
+    "rating": null,
+    "reviews": 0,
+    "gap": {
+      "score": 15,
+      "label": "No website",
+      "detail": "Chisholm Trail Dental Health is listed on OpenStreetMap in Austin, TX with no website — anyone who finds them has no way to check prices or book.",
+      "website": ""
+    },
+    "budgetHints": [],
+    "need": {
+      "summary": "Dental clinics in Austin, TX with no website — losing new-patient bookings to competitors",
+      "evidence": "OpenStreetMap listing with no website tag",
+      "signals": [
+        "No website",
+        "new-patient bookings"
+      ]
+    },
+    "contact": {
+      "phone": "",
+      "email": "",
+      "website": "",
+      "address": "16 Chisholm Trail, Round Rock, 78681",
+      "url": "https://www.openstreetmap.org/node/3356311613",
+      "lookup": "https://www.google.com/maps/search/?api=1&query=Chisholm%20Trail%20Dental%20Health%2016%20Chisholm%20Trail%2C%20Round%20Rock%2C%2078681",
+      "route": "No number in the map data — use the lookup link, then call"
+    },
+    "score": {
+      "total": 68,
+      "band": "B",
+      "breakdown": {
+        "intent": 26,
+        "budget": 8,
+        "recency": 12,
+        "geo": 10,
+        "fit": 15,
+        "contact": 3
+      },
+      "notes": [
+        "No site on a live listing = buying signal",
+        "No review count — verify size before quoting",
+        "No phone/email on the listing — find the number before calling"
+      ]
+    },
+    "service": "website",
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "Chisholm Trail Dental Health is listed on OpenStreetMap in Austin, TX with no website — anyone who finds them has no way to check prices or book.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ]
+    },
+    "outreach": {
+      "emailSubject": "Chisholm Trail Dental Health — a site that takes bookings",
+      "emailBody": "Hi Chisholm Trail Dental Health team,\n\nI came across Chisholm Trail Dental Health in Austin, TX and noticed no website on the listing, so anyone who wants to book has to call during opening hours.\n\nI build websites for dental clinics. Fast, mobile-first sites that turn searches into phone calls.\n\nFor you that means conversion-focused 5–7 page website with booking/call cta, live in 1–2 weeks for $800–$3,000 fixed — 50% up front, the rest only when it is live and you are happy with it.\n\nWant me to send a 2-page plan (pages, booking flow, timeline) before you decide anything?\n\n— Sumant",
+      "dm": "Hi Chisholm — came across Chisholm Trail Dental Health in Austin, TX. Your listing has no website, so people can't book online. I build websites for dental clinics, 1–2 weeks, $800–$3,000 fixed. Want the 2-page plan?",
+      "callScript": "Hi, is this Chisholm Trail Dental Health? I'm Sumant — I build websites for dental clinics in Austin, TX. I noticed no website on the listing, so anyone who wants to book has to call during opening hours. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    },
+    "verification": {
+      "ok": true,
+      "score": 75,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "openstreetmap.org"
+        },
+        {
+          "label": "Date",
+          "pass": false,
+          "note": "unknown"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "No number in the map data — use the lookup link, then call"
+        },
+        {
+          "label": "No free-work flag",
+          "pass": true,
+          "note": ""
+        }
+      ],
+      "disclaimer": "Public post — read the thread before replying; budgets and scope are only what the poster wrote."
+    },
+    "seed": true
+  },
+  {
+    "id": "rs_icon-studio-tx-indie-game-studio-_ments-",
+    "name": "iCon Studio TX (indie game studio)",
+    "kind": "post",
+    "country": "US",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "reddit",
+    "sourceUrl": "https://www.reddit.com/r/forhire/comments/1xr7v8o/hiring_remote_gamemaker_programmer_and_a_sound/",
+    "postedAt": "2026-11-08T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.729Z",
+    "budgetHints": [],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Second GameMaker programmer for indie RTS roguelite 'They're Gonna Get In' to implement finished art assets; must already know GameMaker.",
+      "evidence": "Second GameMaker programmer for indie RTS roguelite 'They're Gonna Get In' to implement finished art assets; must already know GameMaker.\nBudget: $15/hr, 2-month contract at 20 hrs/month (rises to $25/hr if publisher funding lands)",
+      "signals": [
+        "Budget: $15/hr, 2-month contract at 20 hrs/month",
+        "3d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.reddit.com/r/forhire/comments/1xr7v8o/hiring_remote_gamemaker_programmer_and_a_sound/",
+      "route": "Reddit DM to poster / comment on post"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Explicit rate + hours + contract length. Studio name and game page given in post. Small hours (~40h total) so low value, but low competition.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "reddit.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-08"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Reddit DM to poster / comment on post"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 66,
+      "band": "B",
+      "breakdown": {
+        "intent": 18,
+        "budget": 6,
+        "recency": 17,
+        "geo": 10,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "No budget stated — qualify on the call"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Second GameMaker programmer for indie RTS roguelite 'They're Gonna Get In' to implement finished art assets; m\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Second GameMaker programmer for indie RTS roguelite 'They're…",
+      "emailBody": "Hi iCon Studio TX,\n\nSaw your post: Second GameMaker programmer for indie RTS roguelite 'They're Gonna Get In' to implement…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $800–$3,000 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your post: Second GameMaker programmer for indie RTS roguelite 'They're Gonna…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $800–$3,000 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this iCon Studio TX (indie game studio)? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_unnamed-operator-of-a-german-language-pe_ments-",
+    "name": "Unnamed operator of a German-language pet-supplies classifieds marketplace",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "reddit",
+    "sourceUrl": "https://www.reddit.com/r/forhire/comments/1xr0gdt/hiring_senior_developer_pentester_for_whitebox/",
+    "postedAt": "2026-11-08T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.733Z",
+    "budgetHints": [],
+    "bids": 0,
+    "service": "mobile",
+    "need": {
+      "summary": "Senior dev to review a TypeScript monorepo (Next.js 16.4, Hono/oRPC, Postgres 18, React Native) and run a white-box security assessment to OWASP ASVS 5.0 L2 / MASVS before public launch.",
+      "evidence": "Senior dev to review a TypeScript monorepo (Next.js 16.4, Hono/oRPC, Postgres 18, React Native) and run a white-box security assessment to OWASP ASVS 5.0 L2 / MASVS before public launch.\nBudget: Not stated in post",
+      "signals": [
+        "Budget: Not stated in post",
+        "3d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.reddit.com/r/forhire/comments/1xr0gdt/hiring_senior_developer_pentester_for_whitebox/",
+      "route": "Reddit DM / reply on post"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Very specific tech stack and deliverable (report + acceptance verdict). Security-review work rather than build work, but a real paid engagement for someone senior in TS/Next.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "reddit.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-08"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Reddit DM / reply on post"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "B"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 66,
+      "band": "B",
+      "breakdown": {
+        "intent": 23,
+        "budget": 6,
+        "recency": 17,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "No budget stated — qualify on the call"
+      ]
+    },
+    "proposal": {
+      "build": "Cross-platform MVP (React Native/Expo): auth, 3 core screens, push notifications, store submission",
+      "why": "They asked for this in public: \"Senior dev to review a TypeScript monorepo (Next.js 16.4, Hono/oRPC, Postgres 18, React Native) and run a whit\". Cross-platform MVP (React Native/Expo): auth answers exactly that ask.",
+      "stack": [
+        "React Native + Expo",
+        "Supabase",
+        "Expo Notifications",
+        "App Store/Play Console"
+      ],
+      "mvpWeeks": [
+        3,
+        6
+      ],
+      "price": [
+        2800,
+        10000
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–14: build the core (Cross-platform MVP (React Native/Expo): auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Senior dev to review a TypeScript monorepo (Next.js 16.4…",
+      "emailBody": "Hi Unnamed operator of a German-language pet-supplies classifieds marketplace,\n\nSaw your post: Senior dev to review a TypeScript monorepo (Next.js 16.4, Hono/oRPC, Postgres 18, React…. I build exactly that: cross-platform MVP (react native/expo): auth, normally 3–6 weeks, $2,800–$10,000 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your post: Senior dev to review a TypeScript monorepo (Next.js 16.4, Hono/oRPC…. I can ship cross-platform MVP (react native/expo): auth in 3–6 weeks for $2,800–$10,000 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Unnamed operator of a German-language pet-supplies classifieds marketplace? I'm Sumant — I build mobile apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_netherlands-hotel-group_nce-jo",
+    "name": "Netherlands hotel group",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/php-website-to-manage-transfers-hotel-own-shuttle-bus-4530633",
+    "postedAt": "2026-11-11T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [
+      130
+    ],
+    "bids": 0,
+    "service": "website",
+    "need": {
+      "summary": "Extend an existing PHP shuttle-bus booking/admin site: rename/add properties, keep super-user and per-hotel permission logic.",
+      "evidence": "Extend an existing PHP shuttle-bus booking/admin site: rename/add properties, keep super-user and per-hotel permission logic.\nBudget: €120",
+      "signals": [
+        "Budget: €120",
+        "0d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/php-website-to-manage-transfers-hotel-own-shuttle-bus-4530633",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Only 7 proposals. Tiny maintenance job with a repeat client likely (4th property joins April 2027).",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-11"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 65,
+      "band": "B",
+      "breakdown": {
+        "intent": 18,
+        "budget": 7,
+        "recency": 20,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $130+"
+      ]
+    },
+    "proposal": {
+      "build": "Conversion-focused 5–7 page website with booking/call CTA, Google Business profile cleanup and local SEO basics",
+      "why": "They asked for this in public: \"Extend an existing PHP shuttle-bus booking/admin site: rename/add properties, keep super-user and per-hotel pe\". Conversion-focused 5–7 page website with booking/call CTA answers exactly that ask.",
+      "stack": [
+        "Next.js or Astro",
+        "Tailwind",
+        "Formspree/Cal.com",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        1,
+        2
+      ],
+      "price": [
+        600,
+        2400
+      ],
+      "upsell": "Monthly care plan ($99–$199/mo): hosting, edits, review replies, one new landing page per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–7: build the core (Conversion-focused 5–7 page website with booking/call CTA)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Extend an existing PHP shuttle-bus booking/admin site…",
+      "emailBody": "Hi Netherlands hotel group,\n\nSaw your brief: Extend an existing PHP shuttle-bus booking/admin site: rename/add properties, keep…. I build exactly that: conversion-focused 5–7 page website with booking/call CTA, normally 1–2 weeks, $600–$2,400 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Extend an existing PHP shuttle-bus booking/admin site: rename/add…. I can ship conversion-focused 5–7 page website with booking/call CTA in 1–2 weeks for $600–$2,400 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this Netherlands hotel group? I'm Sumant — I build websites for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_india-based-b2b-operator_nce-jo",
+    "name": "India-based B2B operator",
+    "kind": "post",
+    "country": "IN",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "peopleperhour",
+    "sourceUrl": "https://www.peopleperhour.com/freelance-jobs/artificial-intelligence/artificial-intelligence-integration/claude-mcp-apollo-io-salesforce-lead-automation-4530543",
+    "postedAt": "2026-11-10T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.732Z",
+    "budgetHints": [],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "Configure the native Apollo.io connector inside Claude.ai and pipe Apollo research/lead data into Salesforce; platform configuration, no from-scratch build.",
+      "evidence": "Configure the native Apollo.io connector inside Claude.ai and pipe Apollo research/lead data into Salesforce; platform configuration, no from-scratch build.\nBudget: £70",
+      "signals": [
+        "Budget: £70",
+        "1d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.peopleperhour.com/freelance-jobs/artificial-intelligence/artificial-intelligence-integration/claude-mcp-apollo-io-salesforce-lead-automation-4530543",
+      "route": "Submit a proposal on the PeoplePerHour project page (free account)"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "19 proposals. Small, sharply-defined AI-automation job - exactly the kind of quick win a solo dev can deliver in a day or two.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "peopleperhour.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-11-10"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Submit a proposal on the PeoplePerHour project page (free ac"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 63,
+      "band": "B",
+      "breakdown": {
+        "intent": 18,
+        "budget": 6,
+        "recency": 20,
+        "geo": 4,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "No budget stated — qualify on the call"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"Configure the native Apollo.io connector inside Claude.ai and pipe Apollo research/lead data into Salesforce; \". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        800,
+        3000
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Configure the native Apollo.io connector inside Claude.ai and…",
+      "emailBody": "Hi India-based B2B operator,\n\nSaw your brief: Configure the native Apollo.io connector inside Claude.ai and pipe Apollo research/lead…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $800–$3,000 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your brief: Configure the native Apollo.io connector inside Claude.ai and pipe…. I can ship MVP web app with auth in 2–4 weeks for $800–$3,000 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this India-based B2B operator? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  },
+  {
+    "id": "rs_pulp-independent-animation-org-50k-insta_ments-",
+    "name": "PULP (independent animation org, ~50k Instagram followers)",
+    "kind": "post",
+    "country": "GLOBAL",
+    "city": "",
+    "verticalLabel": "",
+    "verticalHook": "new customers",
+    "source": "reddit",
+    "sourceUrl": "https://www.reddit.com/r/forhire/comments/1x4axyt/hiring_fullstack_developer_for_independent/",
+    "postedAt": "2026-10-12T00:00:00.000Z",
+    "fetchedAt": "2026-11-11T05:44:41.733Z",
+    "budgetHints": [
+      1500
+    ],
+    "bids": 0,
+    "service": "webapp",
+    "need": {
+      "summary": "Full-stack developer to build v1 of an independent animation streaming platform: branded responsive site, curated homepage/browse, on-demand playback, clean maintainable architecture.",
+      "evidence": "Full-stack developer to build v1 of an independent animation streaming platform: branded responsive site, curated homepage/browse, on-demand playback, clean maintainable architecture.\nBudget: $1,500 fixed",
+      "signals": [
+        "Budget: $1,500 fixed",
+        "30d old"
+      ]
+    },
+    "contact": {
+      "email": "",
+      "url": "https://www.reddit.com/r/forhire/comments/1x4axyt/hiring_fullstack_developer_for_independent/",
+      "route": "Reddit DM to poster / comment"
+    },
+    "serviceMatch": "explicit",
+    "researcherNote": "Posted exactly 30 days ago - at the edge of the recency window. Explicitly says 'No AI'. Small budget but a real organisation with an audience and a public brief.",
+    "verification": {
+      "ok": true,
+      "score": 100,
+      "checks": [
+        {
+          "label": "Source link",
+          "pass": true,
+          "note": "reddit.com"
+        },
+        {
+          "label": "Date",
+          "pass": true,
+          "note": "2026-10-12"
+        },
+        {
+          "label": "Contact route",
+          "pass": true,
+          "note": "Reddit DM to poster / comment"
+        },
+        {
+          "label": "Researcher grade",
+          "pass": true,
+          "note": "A"
+        }
+      ],
+      "disclaimer": "Imported from the 11 Nov 2026 research pass (data/leads_raw.json). Open the link and re-read the brief before you bid or reply — budget and scope are only what the client wrote."
+    },
+    "seed": true,
+    "score": {
+      "total": 60,
+      "band": "B",
+      "breakdown": {
+        "intent": 18,
+        "budget": 16,
+        "recency": 6,
+        "geo": 5,
+        "fit": 12,
+        "contact": 3
+      },
+      "notes": [
+        "Budget mentioned: $1,500+"
+      ]
+    },
+    "proposal": {
+      "build": "MVP web app with auth, one core workflow, admin view and deploy — shipped in 2–3 weeks",
+      "why": "They asked for this in public: \"Full-stack developer to build v1 of an independent animation streaming platform: branded responsive site, cura\". MVP web app with auth answers exactly that ask.",
+      "stack": [
+        "Next.js + TypeScript",
+        "Postgres/Supabase",
+        "Stripe",
+        "Vercel"
+      ],
+      "mvpWeeks": [
+        2,
+        4
+      ],
+      "price": [
+        1125,
+        1350
+      ],
+      "upsell": "Monthly retainer ($199–$499/mo): monitoring, prompt/workflow tuning, one new automation per month.",
+      "milestonePlan": [
+        "Day 1–2: 20-min call, audit the current funnel, agree on the one number we move",
+        "Day 3–10: build the core (MVP web app with auth)",
+        "Day before launch: 1 round of revisions, tracking + analytics wired",
+        "Launch + 30-min handover, then offer the care plan"
+      ],
+      "priceBasis": "quoted against the client's stated budget ($1,500–$1,500)",
+      "by": "rules"
+    },
+    "outreach": {
+      "emailSubject": "Re: Full-stack developer to build v1 of an independent animation…",
+      "emailBody": "Hi PULP,\n\nSaw your post: Full-stack developer to build v1 of an independent animation streaming platform: branded…. I build exactly that: MVP web app with auth, normally 2–4 weeks, $1,125–$1,350 fixed.\n\nFirst step is small: a 3-line scope and timeline so you can compare it against other quotes. Want me to send it?\n\n— Sumant",
+      "dm": "Saw your post: Full-stack developer to build v1 of an independent animation…. I can ship MVP web app with auth in 2–4 weeks for $1,125–$1,350 fixed. Want a 3-line scope first?",
+      "callScript": "Hi, is this PULP (independent animation org, ~50k Instagram followers)? I'm Sumant — I build web apps for local businesses. I noticed enquiries come in but the follow-up is manual. I'm not selling a redesign; one question: how many enquiries a week do you lose because someone can't book you online in 20 seconds? ... I can put a short plan and a fixed price in front of you by tomorrow. If it's not a fit, keep the plan."
+    }
+  }
+]

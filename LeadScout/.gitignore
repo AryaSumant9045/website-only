@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+.shots/
+*.log
+.keys.json
+data/leads_raw.json

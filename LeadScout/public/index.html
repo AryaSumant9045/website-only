@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LeadScout — multi-agent client finder</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='none' stroke='%23b8f34a' stroke-width='2.5'/><circle cx='16' cy='16' r='5' fill='%23b8f34a'/></svg>" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<div class="app">
+
+  <aside class="rail">
+    <div class="brand">
+      <div class="brand-mark"><span></span></div>
+      <div class="brand-text">
+        <strong>LeadScout</strong>
+        <small>multi-agent · v2</small>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <button class="nav-item active" data-view="scout">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span>Scout</span>
+      </button>
+      <button class="nav-item" data-view="pipeline">
+        <svg viewBox="0 0 24 24"><path d="M4 5h5v14H4zM10.5 5h5v10h-5zM17 5h3v7h-3z"/></svg>
+        <span>Pipeline</span>
+        <b id="navPipeCount" class="nav-badge" hidden>0</b>
+      </button>
+      <button class="nav-item" data-view="settings">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg>
+        <span>Settings</span>
+      </button>
+    </nav>
+
+    <div class="rail-foot">
+      <div id="keyMini" class="key-mini">
+        <div class="key-row"><span class="dot" data-k="google"></span>Google Places</div>
+        <div class="key-row"><span class="dot" data-k="search"></span>Serper / Tavily</div>
+        <div class="key-row"><span class="dot" data-k="llm"></span>LLM</div>
+      </div>
+      <button class="ghost-btn small" data-view="settings">Add keys →</button>
+      <p class="rail-note">Keys stay in your browser.</p>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- ================= SCOUT ================= -->
+    <section class="view active" id="view-scout">
+      <header class="page-head">
+        <div>
+          <div class="eyebrow"><span class="live-dot"></span> 8 agents · 7 source layers</div>
+          <h1>Find clients who are already<br /><em>losing money online.</em></h1>
+          <p class="lede">Point the agents at a market. They scan live business listings and public “we need this built” posts, grade every lead A/B/C, then hand you the pitch, the price in USD and the first message.</p>
+        </div>
+        <div class="head-stat">
+          <span id="headPipeline">$0</span>
+          <small>quoted, in view</small>
+        </div>
+      </header>
+
+      <div class="panel build-panel">
+        <div class="grid-3">
+          <div class="field">
+            <label>What you sell</label>
+            <div class="chips" id="serviceChips"></div>
+          </div>
+          <div class="field">
+            <label>Who buys it</label>
+            <div class="chips" id="verticalChips"></div>
+          </div>
+          <div class="field">
+            <label>Market · paid in USD</label>
+            <div class="chips" id="countryChips"></div>
+            <input id="cityInput" class="input" placeholder="City (optional)" style="margin-top:8px" />
+          </div>
+        </div>
+
+        <div class="build-foot">
+          <div class="depth">
+            <button class="seg-btn active" data-depth="fast">Balanced<small>~2 cities · 18 leads</small></button>
+            <button class="seg-btn" data-depth="deep">Deep<small>~4 cities · 30 leads</small></button>
+            <button class="seg-btn" data-depth="wide">Wide<small>~8 cities · 40 leads</small></button>
+          </div>
+          <div class="prefs">
+            <label class="switch"><input type="checkbox" id="optPhone" /> <span>Phone zaroori</span></label>
+            <label class="switch" title="Jo pehle se saved hain, unhe skip karo"><input type="checkbox" id="optSkipSeen" checked /> <span>Naye sirf</span></label>
+            <select class="input select" id="optReviews" title="Kaam se kam Google reviews">
+              <option value="0">Any reviews</option>
+              <option value="3" selected>3+ reviews</option>
+              <option value="20">20+ reviews</option>
+              <option value="100">100+ reviews</option>
+            </select>
+          </div>
+          <div class="build-actions">
+            <button class="btn subtle" id="pasteBtn">Paste a post</button>
+            <button class="btn subtle" id="seedBtn">Load research seeds</button>
+            <button class="btn primary" id="runBtn">
+              <span>Run agents</span>
+              <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel find-panel">
+        <div class="row between" style="margin-bottom:14px">
+          <div>
+            <h3>Where to look right now <span class="tag">live, in your browser</span></h3>
+            <p class="hint" style="margin:6px 0 0">Queries tumhare service + market se bane hain. Open dabao — tumhare apne logged-in browser mein search khul jayegi. Post pasand aaye to <b>Paste</b> se wapas daal do.</p>
+          </div>
+          <div class="row">
+            <button class="btn subtle" id="pasteFromFind">Paste what you found</button>
+            <button class="btn subtle" id="copyAllQueries">Copy all queries</button>
+          </div>
+        </div>
+        <div class="find-grid" id="findGrid"></div>
+      </div>
+
+      <div class="panel agent-panel" id="agentPanel" hidden>
+        <div class="agent-rail" id="agentRail"></div>
+        <div class="console" id="console" aria-live="polite"></div>
+      </div>
+
+      <div class="results" id="results" hidden>
+        <div class="kpis" id="kpis"></div>
+
+        <div class="results-head">
+          <div class="tabs" id="boardTabs">
+            <button class="active" data-tab="run">This run</button>
+            <button data-tab="saved">All saved <span id="savedCount">0</span></button>
+          </div>
+          <div class="filters">
+            <input class="input search" id="searchInput" placeholder="Search name, city, need…" />
+            <label class="switch" title="Sirf jinke paas phone ya email hai"><input type="checkbox" id="fCallable" /> <span>Callable</span></label>
+            <label class="switch" title="Sirf jinka website nahi hai"><input type="checkbox" id="fNoSite" /> <span>No site</span></label>
+            <select class="input select" id="bandFilter">
+              <option value="">All grades</option>
+              <option value="A">A — call today</option>
+              <option value="B">B — warm</option>
+              <option value="C">C — watch</option>
+            </select>
+            <select class="input select" id="sourceFilter"><option value="">All sources</option></select>
+            <select class="input select" id="scoreFilter" title="Minimum score">
+              <option value="0">Any score</option>
+              <option value="60">60+</option>
+              <option value="75">75+</option>
+            </select>
+            <select class="input select" id="sinceFilter" title="Kitna naya">
+              <option value="0">Any age</option>
+              <option value="1">24 hours</option>
+              <option value="7">7 days</option>
+              <option value="30">30 days</option>
+            </select>
+            <select class="input select" id="sortSel">
+              <option value="score">Sort: score</option>
+              <option value="recent">Sort: newest</option>
+              <option value="value">Sort: deal size</option>
+            </select>
+            <button class="btn subtle" id="clearFilters">Reset</button>
+            <button class="btn subtle" id="exportBtn">Export CSV</button>
+            <span class="mono" id="countLabel"></span>
+          </div>
+        </div>
+
+        <div class="lead-grid" id="leadGrid"></div>
+        <div class="empty" id="emptyState" hidden>
+          <p>No leads match those filters.</p>
+        </div>
+      </div>
+
+      <div class="empty-hero" id="emptyHero">
+        <div class="radar"><i></i><i></i><i></i><span></span></div>
+        <h3>Nothing scanned yet</h3>
+        <p>Pick a market above and hit <b>Run agents</b>. No keys? Load the research seeds — real public requests collected on 11 Nov 2026.</p>
+      </div>
+    </section>
+
+    <!-- ================= PIPELINE ================= -->
+    <section class="view" id="view-pipeline">
+      <header class="page-head compact">
+        <div>
+          <div class="eyebrow">Your desk</div>
+          <h1>Pipeline</h1>
+          <p class="lede">Drag a card to move the deal. Status is saved locally, per lead.</p>
+        </div>
+        <button class="btn subtle" id="exportAllBtn">Export all leads</button>
+      </header>
+      <div class="kanban" id="kanban"></div>
+    </section>
+
+    <!-- ================= SETTINGS ================= -->
+    <section class="view" id="view-settings">
+      <header class="page-head compact">
+        <div>
+          <div class="eyebrow">Bring your own keys</div>
+          <h1>Settings</h1>
+          <p class="lede">Everything is optional. Maps gives you businesses with phone numbers; the search API unlocks LinkedIn/Instagram/X discovery; the LLM makes pitches sharper. Without keys the app still runs on public feeds and templates.</p>
+        </div>
+      </header>
+
+      <div class="settings-grid">
+        <div class="panel">
+          <h3>Google Places API <span class="tag">businesses + phone</span></h3>
+          <p class="hint">Enables the Maps Scout. Text Search (New) is billed per request (~$0.032); a Balanced run makes 2–4 calls. Restrict the key to Places API (New) in Google Cloud.</p>
+          <input class="input" id="keyGoogle" type="password" placeholder="AIza…" autocomplete="off" />
+          <a class="link" href="https://console.cloud.google.com/google/maps-apis/credentials" target="_blank" rel="noopener">Get a key →</a>
+        </div>
+
+        <div class="panel">
+          <h3>Serper.dev <span class="tag">LinkedIn · Instagram · X</span></h3>
+          <p class="hint">Google results as JSON. This is how the Demand Scout reads public LinkedIn/IG/X posts — as search results, without logging in or scraping profiles. 2,500 free credits on signup, then ~$0.001/search.</p>
+          <input class="input" id="keySerper" type="password" placeholder="serper key" autocomplete="off" />
+          <a class="link" href="https://serper.dev/" target="_blank" rel="noopener">Get a key →</a>
+        </div>
+
+        <div class="panel">
+          <h3>Tavily <span class="tag">alternative to Serper</span></h3>
+          <p class="hint">Optional. Use instead of Serper if you prefer it — the app picks whichever key is present.</p>
+          <input class="input" id="keyTavily" type="password" placeholder="tvly-…" autocomplete="off" />
+          <a class="link" href="https://tavily.com/" target="_blank" rel="noopener">Get a key →</a>
+        </div>
+
+        <div class="panel">
+          <h3>Where your keys live <span class="tag">privacy</span></h3>
+          <p class="hint">Keys are stored in this browser's localStorage and sent with each run to your own local server, which holds them in memory for that request only. Nothing is written to disk, nothing goes to a third party except the provider you chose.</p>
+          <p class="hint">Sharing this Mac? Hit <b>Clear keys</b> below. Restrict the Google key to Places API (New) and set a daily quota so a lost key cannot run up a bill.</p>
+        </div>
+
+        <div class="panel wide">
+          <div class="row between">
+            <div>
+              <h3>Models &amp; API <span class="tag">OpenAI-compatible</span></h3>
+              <p class="hint">Koi bhi OpenAI-compatible endpoint — OpenAI, OpenRouter, Groq, DeepSeek, Together, local Ollama, ya apna custom gateway. Ye pitch aur outreach likhne ke liye use hota hai.</p>
+            </div>
+            <button class="btn violet" id="addModelBtn">+ Add model</button>
+          </div>
+          <div class="model-list" id="modelList"></div>
+          <p class="hint" id="noModels">Abhi koi model add nahi hai — bina model ke app chalta hai, pitches rule-based rahenge.</p>
+        </div>
+
+        <div class="panel wide">
+          <div class="row between">
+            <div>
+              <h3>Test the stack</h3>
+              <p class="hint">Each key is checked with one cheap live call. Nothing is stored server-side.</p>
+            </div>
+            <div class="row">
+              <button class="btn subtle" id="clearKeys">Clear keys</button>
+              <button class="btn primary" id="testKeys">Test keys</button>
+            </div>
+          </div>
+          <div class="test-results" id="testResults"></div>
+          <div class="notice">
+            <b>Compliance:</b> LeadScout only reads public endpoints and search results. It does not log into LinkedIn/Instagram, does not scrape profiles, and does not send bulk messages. You send every message yourself — that is also what keeps your accounts alive.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- drawer -->
+<div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-modal="true" role="dialog"></aside>
+<!-- add / edit model modal -->
+<div class="modal-backdrop" id="modelBackdrop" hidden></div>
+<div class="modal" id="modelModal" hidden role="dialog" aria-modal="true" aria-labelledby="modelTitle">
+  <div class="modal-head">
+    <h2 id="modelTitle">Add model</h2>
+    <button class="modal-x" id="modelClose" aria-label="Close">✕</button>
+  </div>
+
+  <div class="warn-banner"><span class="wb-icon">!</span> By adding an external model, you acknowledge this request is sent to that provider at your own risk and cost.</div>
+
+  <div class="form-row">
+    <label>Provider <i>*</i></label>
+    <select class="input select" id="mProvider"></select>
+  </div>
+
+  <div class="form-grid">
+    <div>
+      <label for="mModel">Model ID <i>*</i></label>
+      <input class="input" id="mModel" list="mSuggest" placeholder="e.g. gpt-4o-mini" autocomplete="off" />
+      <datalist id="mSuggest"></datalist>
+    </div>
+    <div>
+      <label for="mName">Display name</label>
+      <input class="input" id="mName" placeholder="e.g. My GPT-4o mini" autocomplete="off" />
+    </div>
+    <div>
+      <label for="mKey">API key</label>
+      <div class="input-wrap">
+        <input class="input" id="mKey" type="password" placeholder="sk-…" autocomplete="off" />
+        <button class="eye" id="mEye" type="button" aria-label="Show key">◉</button>
+      </div>
+    </div>
+    <div>
+      <label for="mProtocol">API protocol</label>
+      <select class="input select" id="mProtocol"><option value="openai">OpenAI</option></select>
+    </div>
+  </div>
+
+  <div class="form-row">
+    <label for="mBase">Base URL <i>*</i></label>
+    <input class="input" id="mBase" placeholder="https://api.example.com/v1" autocomplete="off" />
+    <div class="form-note" id="mBaseNote" hidden></div>
+  </div>
+
+  <div class="adv-head">Advanced parameters</div>
+  <div class="form-grid">
+    <div>
+      <label for="mContext">Context window</label>
+      <input class="input" id="mContext" type="number" value="200000" min="1000" step="1000" />
+    </div>
+    <div>
+      <label for="mMax">Max output</label>
+      <input class="input" id="mMax" type="number" value="32000" min="64" step="64" />
+    </div>
+  </div>
+
+  <div class="test-row">
+    <span class="test-dot" id="mDot"></span>
+    <span class="test-msg" id="mTestMsg">Sends a real request using the current config to verify the endpoint.</span>
+    <button class="btn subtle" id="mTest" type="button">Connectivity test</button>
+  </div>
+  <div class="test-hint" id="mHint" hidden></div>
+
+  <div class="modal-foot">
+    <button class="btn subtle" id="mCancel" type="button">Cancel</button>
+    <button class="btn violet" id="mAdd" type="button">Add</button>
+  </div>
+</div>
+
+<div class="toast-wrap" id="toasts"></div>
+
+<!-- paste a post from anywhere (LinkedIn, Upwork, Instagram, WhatsApp…) -->
+<div class="modal-backdrop" id="importBackdrop" hidden></div>
+<div class="modal" id="importModal" hidden role="dialog" aria-modal="true" aria-labelledby="importTitle">
+  <div class="modal-head">
+    <h2 id="importTitle">Paste a post</h2>
+    <button class="modal-x" id="importClose" aria-label="Close">✕</button>
+  </div>
+  <p class="hint" style="margin-top:-4px">Jahan bhi client mila — LinkedIn, Upwork, Instagram, WhatsApp group, email — uska text yahan paste karo. App usko lead bana dega: score, price, email aur DM. <b>Ek se zyada?</b> Har post ke beech <code>---</code> ki ek line daal do.</p>
+
+  <div class="form-row">
+    <label for="iText">Post text <i>*</i></label>
+    <textarea class="input" id="iText" rows="6" placeholder="Client ka message yahan paste karo…&#10;&#10;---&#10;&#10;Doosra post yahan…"></textarea>
+    <div class="form-note" id="iCount"></div>
+  </div>
+
+  <div class="form-grid">
+    <div><label for="iUrl">Link (optional)</label><input class="input" id="iUrl" placeholder="https://www.linkedin.com/posts/…" /></div>
+    <div><label for="iName">Client / company</label><input class="input" id="iName" placeholder="e.g. Bright Smile Dental" /></div>
+    <div><label for="iPlatform">Platform</label><input class="input" id="iPlatform" placeholder="linkedin / upwork / instagram" /></div>
+    <div><label for="iCountry">Market</label><select class="input select" id="iCountry"></select></div>
+  </div>
+
+  <div class="test-hint" id="iError" hidden></div>
+
+  <div class="modal-foot">
+    <button class="btn subtle" id="importCancel" type="button">Cancel</button>
+    <button class="btn violet" id="importSave" type="button">Add lead</button>
+  </div>
+</div>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>
