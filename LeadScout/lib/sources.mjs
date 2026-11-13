@@ -345,6 +345,21 @@ export async function redditSearch({ query, sub = "forhire", days = 30, limit = 
     }));
 }
 
+const SOFTWARE_TERMS =
+  /(website|web site|web design|web designer|web app|webapp|developer|software|automation|chatbot|\bai\b|\bapi\b|dashboard|shopify|wordpress|landing page|front.?end|back.?end|full.?stack|\bmvp\b|prototype|integration|\bcrm\b|python|react|node|scrape|data pipeline|mobile app|ios app|android app|app development|ui\/ux|ux designer)/i;
+
+const NON_SOFTWARE_ROLE =
+  /(translator|translation|virtual assistant|data entry|content (board|creator|writer)|artist|illustrator|video editor|voice over|copywriter|social media|growth specialist|sales partner|community (builder|manager)|\bseo\b|graphic designer|photographer|typesetting)/i;
+
+/** Reddit and marketplaces are full of non-software gigs that mention "web". */
+export function isSoftwareJob(title = "", body = "") {
+  const t = String(title).toLowerCase();
+  const b = String(body).toLowerCase();
+  if (SOFTWARE_TERMS.test(t)) return true;
+  if (NON_SOFTWARE_ROLE.test(t)) return false;
+  return SOFTWARE_TERMS.test(b);
+}
+
 /**
  * Is this person BUYING or SELLING? Every public feed is full of freelancers
  * advertising themselves, which looks like a lead to a keyword search but is
@@ -395,7 +410,14 @@ export async function blueskySearch({ query, limit = 25, days = 14 }) {
 /* ------------------------------------------------------------------ */
 
 export async function redditRSS({ sub, days = 14, limit = 60 }) {
-  const r = await req(`https://www.reddit.com/r/${encodeURIComponent(sub)}/new.rss`, {
+  // `sub` may be a multi-reddit like "forhire+freelance_forhire": one request,
+  // several subreddits. Reddit rate-limits RSS hard, so batching matters.
+  const path = String(sub)
+    .split("+")
+    .map((x) => x.replace(/[^a-zA-Z0-9_]/g, ""))
+    .filter(Boolean)
+    .join("+");
+  const r = await req(`https://www.reddit.com/r/${path}/new.rss?limit=${Math.min(limit, 100)}`, {
     headers: { Accept: "application/atom+xml, application/rss+xml, text/xml" },
   });
   if (!r.ok) throw new Error(`Reddit RSS r/${sub} ${r.status}`);

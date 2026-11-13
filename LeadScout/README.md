@@ -251,6 +251,20 @@ Places API (New)** aur daily quota 200 rakho.
 
 ---
 
+## Sirf valid clients (noise filter)
+
+Har post in sab se guzarta hai:
+
+1. **Buyer intent** — "looking for / need / hiring / budget" hona chahiye.
+2. **Seller reject** — "I build websites, DM me", "we are an agency", "hire me" → drop.
+3. **Software-only** — translator, VA, data entry, content creator, artist, video editor,
+   social media, SEO, graphic designer → drop. Sirf website/web app/chatbot/automation/dev work.
+4. **Email MX** — email tabhi dikhti hai jab domain ka mail server DNS mein ho.
+5. **Phone format** — 7+ digits warna number drop.
+
+Reddit ka reality check: `r/forhire + r/freelance_forhire` ke latest 100 posts mein software asks
+**0–4 per run** hote hain — batch roz badalta hai. Zero aana normal hai, bug nahi.
+
 ## Sources: kya chalta hai, kya nahi (tested)
 
 | Source | Status | Note |

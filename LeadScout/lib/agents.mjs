@@ -18,6 +18,7 @@ import {
   redditSearch,
   redditRSS,
   isBuyerPost,
+  isSoftwareJob,
   freelancerProjects,
   serperSearch,
   tavilySearch,
@@ -473,8 +474,6 @@ export function alignProposalToBudget(lead) {
 /* the pipeline                                                       */
 /* ------------------------------------------------------------------ */
 
-let redditSubIndex = 0;
-
 export const AGENTS = [
   { id: "planner", name: "Planner", role: "Turns your offer + market into a search plan" },
   { id: "maps", name: "Maps Scout", role: "Pulls live businesses from Google Places, scores their digital gap" },
@@ -833,7 +832,9 @@ export async function runPipeline(input, emit, ctxOuter = {}) {
     }
 
     try {
-      const hiring = posts.filter((p) => /\[?(hiring|looking for|need|seeking)/i.test(p.title) && !/\[?for hire\]?/i.test(p.title));
+      const hiring = posts.filter(
+        (p) => /\[?(hiring|looking for|need|seeking)/i.test(p.title) && !/\[?for hire\]?/i.test(p.title) && isSoftwareJob(p.title, p.body)
+      );
       log("demand", `r/${sub} (${via}) "${query}" → ${hiring.length} asks`);
       for (const p of hiring.slice(0, 12)) {
         const text = `${p.title}. ${p.body}`;
@@ -868,11 +869,9 @@ export async function runPipeline(input, emit, ctxOuter = {}) {
       log("demand", `r/${sub} blocked: ${e.message}`, "warn");
     }
   };
-  // Reddit's RSS endpoint allows roughly one request per run before it starts
-  // returning 429. So: one subreddit per run, rotating between runs.
-  const REDDIT_SUBS = ["forhire", "freelance_forhire"];
-  const redditSub = REDDIT_SUBS[redditSubIndex++ % REDDIT_SUBS.length];
-  await addReddit(redditSub, plan.demandQueries[0]);
+  // One request per run: a multi-reddit returns both subreddits at once (100
+  // posts). Reddit 429s a second request, so batching is the only way up.
+  await addReddit("forhire+freelance_forhire", plan.demandQueries[0]);
 
   try {
     ctx.usage.searches++;
@@ -1061,10 +1060,7 @@ export async function runPipeline(input, emit, ctxOuter = {}) {
     // for software work. This is what keeps full-time job ads out.
     if (l.kind === "post") {
       const hay = `${l.need?.summary || ""} ${l.need?.evidence || ""}`.toLowerCase();
-      const softwareAsk =
-        /(website|web site|web app|webapp|mobile app|app development|developer|\bdev\b|software|automation|chatbot|\bai\b|\bapi\b|dashboard|shopify|wordpress|landing page|front.?end|back.?end|full.?stack|\bmvp\b|prototype|integration|\bcrm\b|python|react|node|scrape|data pipeline)/.test(
-          hay
-        );
+      const softwareAsk = isSoftwareJob(l.need?.summary || "", hay);
       if (!softwareAsk) {
         drop.notSoftware++;
         return false;
