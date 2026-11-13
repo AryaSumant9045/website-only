@@ -251,6 +251,21 @@ Places API (New)** aur daily quota 200 rakho.
 
 ---
 
+## Sources: kya chalta hai, kya nahi (tested)
+
+| Source | Status | Note |
+|---|---|---|
+| OpenStreetMap / Overpass | ✅ | no-website businesses ka best source (India mein patla → Google top-up) |
+| Google Places | ✅ | phone + rating + reviews; **top-20 biased to businesses that already have sites** |
+| Freelancer.com API | ✅ | 6–9 live briefs per run |
+| Reddit RSS | ⚠️ | **1 request per run** (429 ke baad block). Subreddit rotate hota hai |
+| Serper / Tavily | 🔑 | LinkedIn/X/IG public posts — key ke bina skip |
+| Bluesky public API | ❌ test kiya | 25 posts → 16 "buyer" → **0 asli client** (sellers + jokes) |
+| HN comments | ❌ test kiya | 40 comments → 5 flags → 0 client ask |
+
+**Coverage ka sabse bada lever: Serper key** — wahi LinkedIn/X/Instagram ke public posts kholta hai
+(2,500 free credits). Uske bina demand side sirf Reddit + Freelancer tak limited hai.
+
 ## Deploy (hosting)
 
 **Vercel par ye app nahi chalegi** — aur wajah 404 nahi hai:

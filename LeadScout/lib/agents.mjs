@@ -473,6 +473,8 @@ export function alignProposalToBudget(lead) {
 /* the pipeline                                                       */
 /* ------------------------------------------------------------------ */
 
+let redditSubIndex = 0;
+
 export const AGENTS = [
   { id: "planner", name: "Planner", role: "Turns your offer + market into a search plan" },
   { id: "maps", name: "Maps Scout", role: "Pulls live businesses from Google Places, scores their digital gap" },
@@ -798,6 +800,7 @@ export async function runPipeline(input, emit, ctxOuter = {}) {
   };
 
   let redditDead = false;
+  let redditJsonDead = false;
   const addReddit = async (sub, query) => {
     if (redditDead) {
       log("demand", `r/${sub} skipped — Reddit is rate-limiting this IP`, "warn");
@@ -806,17 +809,24 @@ export async function runPipeline(input, emit, ctxOuter = {}) {
     ctx.usage.searches++;
     let posts = [];
     let via = "json";
-    try {
-      posts = await redditSearch({ query, sub, days: depthCfg.days });
-    } catch (jsonErr) {
-      // Reddit blocks the JSON API from many networks. Its public RSS feed
-      // usually still answers, so fall back before giving up on the subreddit.
+
+    if (!redditJsonDead) {
+      try {
+        posts = await redditSearch({ query, sub, days: depthCfg.days });
+      } catch (jsonErr) {
+        redditJsonDead = true; // blocked network-wide; stop wasting requests
+        ctx.warnings.push(`Reddit JSON r/${sub}: ${jsonErr.message}`);
+      }
+    }
+
+    if (!posts.length) {
+      // Public RSS usually still answers when the JSON API is blocked.
+      via = "rss";
       try {
         posts = await redditRSS({ sub, days: depthCfg.days });
-        via = "rss";
       } catch (rssErr) {
         if (/429|too many/i.test(rssErr.message)) redditDead = true;
-        ctx.warnings.push(`Reddit r/${sub}: ${jsonErr.message} / ${rssErr.message}`);
+        ctx.warnings.push(`Reddit RSS r/${sub}: ${rssErr.message}`);
         log("demand", `r/${sub} blocked (JSON + RSS): ${rssErr.message}`, "warn");
         return;
       }
@@ -858,12 +868,11 @@ export async function runPipeline(input, emit, ctxOuter = {}) {
       log("demand", `r/${sub} blocked: ${e.message}`, "warn");
     }
   };
-  for (const q of plan.demandQueries.slice(0, depthCfg.queries)) {
-    await addReddit("forhire", q);
-    if (ctx.aborted) break;
-    await sleep(3600); // Reddit rate-limits RSS hard; space the calls out
-  }
-  if (depth === "deep") await addReddit("freelance_forhire", svc.demandKw[0]);
+  // Reddit's RSS endpoint allows roughly one request per run before it starts
+  // returning 429. So: one subreddit per run, rotating between runs.
+  const REDDIT_SUBS = ["forhire", "freelance_forhire"];
+  const redditSub = REDDIT_SUBS[redditSubIndex++ % REDDIT_SUBS.length];
+  await addReddit(redditSub, plan.demandQueries[0]);
 
   try {
     ctx.usage.searches++;
