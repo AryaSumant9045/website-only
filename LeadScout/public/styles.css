@@ -244,6 +244,7 @@ h1 em { font-style: normal; color: var(--acid); }
 .pill.src-google_maps { color: var(--cyan); border-color: rgba(110,231,255,.25); background: rgba(110,231,255,.07); }
 .pill.src-osm { color: #9fd8c0; border-color: rgba(159,216,192,.25); background: rgba(159,216,192,.07); }
 .pill.src-freelancer { color: #b9a7ff; border-color: rgba(185,167,255,.25); background: rgba(185,167,255,.07); }
+.pill.src-bluesky { color: #7dc4ff; border-color: rgba(125,196,255,.25); background: rgba(125,196,255,.07); }
 .pill.src-reddit { color: #ff9b6b; border-color: rgba(255,155,107,.25); background: rgba(255,155,107,.07); }
 .pill.src-hn { color: #ffb86b; border-color: rgba(255,184,107,.25); background: rgba(255,184,107,.07); }
 .pill.src-linkedin { color: #7fb3ff; border-color: rgba(127,179,255,.25); background: rgba(127,179,255,.07); }

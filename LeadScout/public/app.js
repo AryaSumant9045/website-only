@@ -737,7 +737,7 @@ function ring(total, band) {
 }
 
 function sourceLabel(s) {
-  return { google_maps: "Google Maps", osm: "OpenStreetMap", freelancer: "Freelancer", hn: "Hacker News", x: "X", remoteok: "RemoteOK", wwr: "WWR", linkedin: "LinkedIn", instagram: "Instagram", reddit: "Reddit", web: "Web" }[s] || s;
+  return { google_maps: "Google Maps", osm: "OpenStreetMap", freelancer: "Freelancer", bloom: "Bluesky", bluesky: "Bluesky", hn: "Hacker News", x: "X", remoteok: "RemoteOK", wwr: "WWR", linkedin: "LinkedIn", instagram: "Instagram", reddit: "Reddit", web: "Web" }[s] || s;
 }
 
 function flag(c) {

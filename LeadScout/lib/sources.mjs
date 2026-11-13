@@ -345,6 +345,51 @@ export async function redditSearch({ query, sub = "forhire", days = 30, limit = 
     }));
 }
 
+/**
+ * Is this person BUYING or SELLING? Every public feed is full of freelancers
+ * advertising themselves, which looks like a lead to a keyword search but is
+ * the opposite. Selling wins ties: if both signals appear, it is not a lead.
+ */
+export function isBuyerPost(text = "") {
+  const t = String(text).toLowerCase().replace(/\s+/g, " ");
+  const sell =
+    /(i (am|'m) (a|an) (developer|freelancer|designer|engineer)|i build|i create|i can build|we (build|offer|provide|create)|our (agency|team|studio|company)|hire me|available for (work|freelance|projects)|dm me (for|if you need)|portfolio|services include|we are a (web|digital|software) (agency|studio)|book a call)/;
+  if (sell.test(t)) return false;
+  const buy =
+    /(looking for (a|an|someone|somebody|help)|need (a|an|someone|somebody|help)|hiring|anyone (know|recommend)|who can (build|help|make|develop)|recommend(ations?)? for|searching for|in the market for|budget (of|is|around)|quote|rfp|dm me|reach out|get in touch)/;
+  if (!buy.test(t)) return false;
+  // "need a developer" is only a lead if they describe the work.
+  return t.length > 60;
+}
+
+/* ------------------------------------------------------------------ */
+/* 2c. Bluesky — public search API, no key, no login                  */
+/* ------------------------------------------------------------------ */
+
+export async function blueskySearch({ query, limit = 25, days = 14 }) {
+  const url = `https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=${encodeURIComponent(query)}&limit=${limit}&sort=latest`;
+  const r = await req(url, { headers: { Accept: "application/json" } }, 25000);
+  if (!r.ok) throw new Error(`Bluesky ${r.status}`);
+  const data = await r.json();
+  const cutoff = Date.now() - days * 864e5;
+  return (data.posts || [])
+    .filter((p) => p?.record?.text && p?.author?.handle)
+    .filter((p) => {
+      const t = Date.parse(p.record.createdAt);
+      return !Number.isFinite(t) || t >= cutoff;
+    })
+    .map((p) => {
+      const id = String(p.uri).split("/").pop();
+      return {
+        id,
+        text: p.record.text,
+        author: p.author.handle,
+        created: p.record.createdAt,
+        url: `https://bsky.app/profile/${p.author.handle}/post/${id}`,
+      };
+    });
+}
+
 /* ------------------------------------------------------------------ */
 /* 2b. Reddit RSS — used when the JSON API blocks the request         */
 /* ------------------------------------------------------------------ */

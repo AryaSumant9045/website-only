@@ -17,6 +17,7 @@ import {
   osmPlaces,
   redditSearch,
   redditRSS,
+  isBuyerPost,
   freelancerProjects,
   serperSearch,
   tavilySearch,
@@ -27,6 +28,7 @@ import {
   daysAgo,
   domainOf,
 } from "./sources.mjs";
+import { promises as dns } from "node:dns";
 import { chatJSON } from "./llm.mjs";
 import { auditWebsite, auditSummary } from "./audit.mjs";
 
@@ -934,7 +936,10 @@ export async function runPipeline(input, emit, ctxOuter = {}) {
         log("demand", `Web: "${q.slice(0, 60)}…" → ${results.length} results`);
         for (const r of results) {
           const text = `${r.title}. ${r.snippet}`;
-          if (!/(need|looking|hiring|want|help|budget)/i.test(text)) continue;
+          // Snippets are short, so the strict filter only applies when there is
+          // enough text to judge; otherwise fall back to the loose keywords.
+          const looksBuyer = text.length > 60 ? isBuyerPost(text) : /(need|looking|hiring|budget)/i.test(text);
+          if (!looksBuyer) continue;
           pushPost({
             id: `web_${slug(r.url).slice(-24)}_${rid()}`,
             name: domainOf(r.url).replace(/\.(com|co|io|org|net|in|uk)$/, "") || "Web lead",
@@ -1265,12 +1270,57 @@ Return {"leads":[{"id","emailSubject","emailBody","dm","callScript"}]}`,
   /* 7. VERIFIER                                                      */
   /* ---------------------------------------------------------------- */
   start("verifier", "Checking links, dates and contacts");
+
+  /** Dead domains are the main reason an email bounces. Check the mail server. */
+  const emailHasServer = async (email) => {
+    const domain = String(email).split("@")[1];
+    if (!domain) return false;
+    const withTimeout = (p) => Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error("timeout")), 3000))]);
+    try {
+      const mx = await withTimeout(dns.resolveMx(domain));
+      if (Array.isArray(mx) && mx.length) return true;
+    } catch {}
+    try {
+      const a = await withTimeout(dns.resolve4(domain));
+      return Array.isArray(a) && a.length > 0;
+    } catch {
+      return false;
+    }
+  };
+
+  let mxChecked = 0;
+  for (const lead of graded) {
+    if (lead.contact?.email && mxChecked < 6) {
+      mxChecked++;
+      lead.emailValid = await emailHasServer(lead.contact.email);
+      if (!lead.emailValid) {
+        lead.contact.emailUnverified = lead.contact.email;
+        lead.contact.email = "";
+        lead.contact.route = `${lead.contact.route} (email domain has no mail server — verify before relying on it)`;
+      }
+    }
+    const digits = String(lead.contact?.phone || "").replace(/\D/g, "");
+    lead.phoneValid = digits.length >= 7 ? true : lead.contact?.phone ? false : null;
+    if (lead.phoneValid === false) lead.contact.phone = "";
+    lead.score = scoreLead(lead);
+  }
+
   let verifiedOk = 0;
   for (const lead of graded) {
     const checks = [
       { label: "Source link", pass: /^https?:\/\//.test(lead.sourceUrl || ""), note: lead.sourceUrl ? domainOf(lead.sourceUrl) : "missing" },
       { label: "Date", pass: Boolean(lead.postedAt), note: lead.postedAt ? `${daysAgo(lead.postedAt)}d ago` : lead.source === "google_maps" ? "live listing (no post date)" : "unknown" },
       { label: "Contact route", pass: Boolean(lead.contact?.phone || lead.contact?.email || lead.contact?.url), note: lead.contact?.route || "" },
+      {
+        label: "Email delivers",
+        pass: lead.emailValid !== false,
+        note: lead.emailValid === false ? "domain has no mail server" : lead.contact?.email ? "MX record found" : "no email to check",
+      },
+      {
+        label: "Phone format",
+        pass: lead.phoneValid !== false,
+        note: lead.phoneValid === false ? "number too short to dial" : lead.contact?.phone || "no phone on file",
+      },
       { label: "No free-work flag", pass: !SCAM.test(`${lead.need?.summary} ${lead.need?.evidence}`), note: "" },
     ];
     const passed = checks.filter((c) => c.pass).length;

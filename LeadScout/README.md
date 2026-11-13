@@ -96,6 +96,20 @@ lead bana do. Isme koi automation nahi — tumhara account safe, ToS clean.
 
 Queries mein `-("for hire" OR "freelancer")` filter hai, taaki doosre developers ke ads na aayein.
 
+## Contact validity (jhoothi lead nahi)
+
+Har lead publish hone se pehle:
+
+- **Email MX check** — `contact@domain.com` ka mail server DNS se check hota hai. Server nahi hai to
+  email hata di jaati hai aur note lag jata hai (bounce-proof).
+- **Phone format** — kam se kam 7 digits, warna number drop.
+- **Buyer vs seller filter** — "I build websites, DM me" wale posts reject; sirf "looking for /
+  need / hiring / budget" wale aate hain.
+- **Source link + date + contact** — teen mein se kam se kam 3 checks pass hone par hi lead verified.
+
+*Bluesky bhi test kiya (free public API): 25 posts mein 16 "buyer" nikle par asli client ~0 —
+sellers aur jokes. Isliye source add nahi kiya; filter hi rakha.*
+
 ## Live streaming (end ka wait nahi)
 
 Har platform ka scan khatam hote hi uske leads board par aane lagte hain:
